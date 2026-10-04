@@ -1,0 +1,36 @@
+{
+  "game_version": "1.8.5",
+  "build_date": "2026-10-05",
+  "files": [
+    {
+      "path": "China_Data/Managed/MaoChinese.dll",
+      "original": null,
+      "patched": "4e0f58f07d565ebcddf303158e0f9fba6d6d07ce9f07af85c7b7cb8f6f3fae14",
+      "payload": "China_Data/Managed/MaoChinese.dll",
+      "payload_sha256": "4e0f58f07d565ebcddf303158e0f9fba6d6d07ce9f07af85c7b7cb8f6f3fae14"
+    },
+    {
+      "path": "China_Data/Managed/Assembly-CSharp.dll",
+      "original": "6eae07cb49d2775502af10f3c6ddea7681fb72748ca0426e3a2b793491c85856",
+      "patched": "01a35e3bdf6773519b4e350c7b1b1cadd757c17dbe239c6efa8184a31513d3f8",
+      "payload": "Patches/Assembly-CSharp.dll.mld.gz",
+      "payload_sha256": "1b83dc9a0536548a6c3c7e79997bccb6a66d9e93f62df84ebaa7c625f7510fa2"
+    },
+    {
+      "path": "China_Data/Managed/NewResolutionDialog.dll",
+      "original": "bca22d90962a45d31be19cc6303c26aa8be24aa50a347463ebcbd4bcab3dbbbc",
+      "patched": "fb30b35c75117948bd911914d38fcd01e6c6dd043a946829584a76c0653a22b6",
+      "payload": "Patches/NewResolutionDialog.dll.mld.gz",
+      "payload_sha256": "0d76a9e6e15f66f1741e12a4b4a09e664f18c9fdf2d828600a2ec1eaeaf86504"
+    },
+    {
+      "path": "China_Data/resources.assets",
+      "original": "d2e8d89a4e85ad922f190811cef488bb80cf706d82116d42e63c86e1b2938903",
+      "patched": "52f97afa62011fe8fb78aa58c7b7a68cfe425bab8d11462b0fe4c9e7b7989f38",
+      "payload": "Patches/resources.assets.mld.gz",
+      "payload_sha256": "33bcd1dde5978c052f0c0828cc1275777d7825a03435fa1adee4abe6188c2917"
+    }
+  ],
+  "patch_version": "v1.8.5-zh.1",
+  "format": "MLD1-gzip"
+}
