@@ -1,0 +1,140 @@
+[
+  {
+    "name": "new_modify_texts_en",
+    "lines": 27,
+    "source_sha256": "697314a71447483992d7aee5760e94ce9581af1fee6f55e614dd97d003f50744",
+    "translation_sha256": "385bf882b5256f44535fc776f10456be95c8f3eae9681fa3650f0b92c933cbba"
+  },
+  {
+    "name": "new_event_text_en",
+    "lines": 69,
+    "source_sha256": "2fe44162f17e67ae238b293a7bee822f7422a2ef6b0cb79034f467d4de003579",
+    "translation_sha256": "83e907837f495800ed842e87b62f0065ec12ef0c4e970e8228a29a8bfa17c4a9"
+  },
+  {
+    "name": "Part7_en",
+    "lines": 1,
+    "source_sha256": "f0e48aa208b16913ab762c3e51c453ecc8f83f0e8c20d13f5f518c32fec970de",
+    "translation_sha256": "c88c6b7e316727d0114e61ff0537c4c705b72f62708186427335d4ad3fe0457f"
+  },
+  {
+    "name": "polit_names1_en",
+    "lines": 45,
+    "source_sha256": "9010be8a6557103f976433dc5c451ea2d50e61616b519a51b285dc9755e361cc",
+    "translation_sha256": "0cbbeacd9458023e68132fdd7f2b08d8f76404b371e66b33c441a1b11a820f86"
+  },
+  {
+    "name": "polit_names21_en",
+    "lines": 43,
+    "source_sha256": "b7b8895592909966d8d00fd49876ad03012b18fc22e971befc351de104c1b63e",
+    "translation_sha256": "598d2c9af54d83e4996ab88cf6fd03aecd5cedf62551b098fbbbf6ffc9d715ee"
+  },
+  {
+    "name": "polit_surnames7_en",
+    "lines": 48,
+    "source_sha256": "9478456d49dbbab3814c07d7740c87695e4073d2045775b0e4810e4d42343f92",
+    "translation_sha256": "72eef88ba2f106ca90ac74821b31486763e7e661a9ef6308145945d062d7cc0b"
+  },
+  {
+    "name": "polit_surnames1_en",
+    "lines": 50,
+    "source_sha256": "6804fe1bb8fb7422d5dd90afcede420d407c535fd3b0ba47056763aaa9d062f1",
+    "translation_sha256": "a8f84dde8fea707f59ecb6a2f1707674531dd74d033c2c1aacf211cd5550f6a4"
+  },
+  {
+    "name": "Traits21_en",
+    "lines": 20,
+    "source_sha256": "fc82869416fa182399dbab044e79bda260ac3417add4b8f67dcd2443be2d4419",
+    "translation_sha256": "787dee6e34af5fe0e4e87e0a2a3dc95a8924e5e7eac433ab5a3050efe63f9686"
+  },
+  {
+    "name": "Opis_en",
+    "lines": 1,
+    "source_sha256": "03e9cf7ca5355c2ce2b6b3286f73b704f01b7c26f89980d6426f3593a6c448da",
+    "translation_sha256": "d201812fadaaf91effe7d2f58456c7264004c8aceeeb6917931910d373208b77"
+  },
+  {
+    "name": "Traits7_en",
+    "lines": 20,
+    "source_sha256": "fc82869416fa182399dbab044e79bda260ac3417add4b8f67dcd2443be2d4419",
+    "translation_sha256": "a9c43fbee9324a260cd28ffd429b3223049be9d30eb3de5cedc01d0f9d5d313c"
+  },
+  {
+    "name": "polit_surnames21_en",
+    "lines": 48,
+    "source_sha256": "9478456d49dbbab3814c07d7740c87695e4073d2045775b0e4810e4d42343f92",
+    "translation_sha256": "44f2e682696c491f6d32e3b5b2f55e0c725ce25c0ea2ef39cad1b2a607f48063"
+  },
+  {
+    "name": "new_focuses_texts_en",
+    "lines": 349,
+    "source_sha256": "03e8408c1930eef84c8416c57ceb8dc03e980649b92ad4324367c06fdd694bb0",
+    "translation_sha256": "c0b967307874b3c920f0b79270af5d4c35bcc62ad858337b23179ce0407b133e"
+  },
+  {
+    "name": "old_modify_opis_en",
+    "lines": 67,
+    "source_sha256": "391566c686e73a71e4ba24c50da6373eb1fddad9c63a8fb252941b836b16fcb5",
+    "translation_sha256": "171a316185ad18ed3b7baae4a030f022b7d0daf260aa75a0445f7ea6a9ef9868"
+  },
+  {
+    "name": "Part1_en",
+    "lines": 1,
+    "source_sha256": "f0e48aa208b16913ab762c3e51c453ecc8f83f0e8c20d13f5f518c32fec970de",
+    "translation_sha256": "aeeedb788c93b90eb560048ee978cb07db833c00c3c9272f4d6ba29c2f5876c7"
+  },
+  {
+    "name": "new_modify_opis_en",
+    "lines": 27,
+    "source_sha256": "3d33645b39b392b96b7bf10c6f262027ef62b01dd8162e5f4c289e87a9b6ab63",
+    "translation_sha256": "c17166cdd2277a04a1e250f27b1d1e93c135a729af13afde5eff7884e0d88fae"
+  },
+  {
+    "name": "new_texts_en",
+    "lines": 1098,
+    "source_sha256": "d33c80f3cce6b1e0245de12e45bc8567f5ca7ce7ed5f8908e73c8eac997e9c38",
+    "translation_sha256": "9001adb29db05a8212f882b624c86ee3d5ecdfe672608389676fe975266270de"
+  },
+  {
+    "name": "Traits1_en",
+    "lines": 20,
+    "source_sha256": "fc82869416fa182399dbab044e79bda260ac3417add4b8f67dcd2443be2d4419",
+    "translation_sha256": "a9c43fbee9324a260cd28ffd429b3223049be9d30eb3de5cedc01d0f9d5d313c"
+  },
+  {
+    "name": "other_text_en",
+    "lines": 598,
+    "source_sha256": "262a90317a3b71bf0b5e557b747e196754ee6a991867471f88af7fe5d31fc75e",
+    "translation_sha256": "f5351cb6dd277a81842e83ec5051adf7c2b81ca13076eb80a888f25052fcf785"
+  },
+  {
+    "name": "Doctr_en",
+    "lines": 1,
+    "source_sha256": "82c6f37eae03ed11d599cf1e139ee9e61c9bfed6d98d239b78bd681c9219bd91",
+    "translation_sha256": "93469e7ce2db333c72920d4aa633b478d13872cb6c0756e1adfdf7d9326a36b9"
+  },
+  {
+    "name": "polit_names7_en",
+    "lines": 43,
+    "source_sha256": "3a79c92612822601640cd7bccd16a0da271177f4b3b12743187ac8133912be81",
+    "translation_sha256": "a1f67a42169d2d5a9a192ae1879cf05cf7ba6ef2ea37feed7af131a5caef9ee3"
+  },
+  {
+    "name": "Country_en",
+    "lines": 112,
+    "source_sha256": "9ca3081550dcf1f9de6850bc8711d969b2c0d3e13dde16d278211beed4ec682f",
+    "translation_sha256": "affb4006150bd8beb11d549f3e55ce4c7679ee72e0a25893dff8c1fd808fd62a"
+  },
+  {
+    "name": "Events_text_en",
+    "lines": 1664,
+    "source_sha256": "ed53ff2f0e7875e371dd7205e3d9affa204d7b65d10ed2a0bd914287dc6a8bce",
+    "translation_sha256": "3a205b551d5c675e48f44f43aa37e604319d8040a16187dc1ea63a3723c209f5"
+  },
+  {
+    "name": "old_modify_text_en",
+    "lines": 67,
+    "source_sha256": "20d75a28e4c1d29c386f1869c43bbedde16ffb447bd96abca903f8f19915e5f2",
+    "translation_sha256": "d741f77784009ea7cdd77d33636137dce3158918e62234d8cd6026f8aa6d8843"
+  }
+]
