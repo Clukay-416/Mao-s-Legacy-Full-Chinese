@@ -16,7 +16,6 @@ namespace MaoChinese {
   static Font font;
   static bool started;
   static bool inSetter;
-  static TMPro.TMP_FontAsset tmpFont;
   public static Font ChineseFont { get { if(font==null) font=Font.CreateDynamicFontFromOSFont(new string[]{"Microsoft YaHei","SimHei","SimSun"},32);return font;} }
   public static void Ensure() {
    if(started)return;started=true;
@@ -80,7 +79,11 @@ namespace MaoChinese {
    inSetter=true;try {Ensure();s=Localize(s);if(SceneManager.GetActiveScene().name=="Settings"&&mesh.transform.parent!=null&&mesh.transform.parent.name.StartsWith("Aud"))s=s.Replace('\n',' ').Replace('|',' ');mesh.text=s;Layout.Apply(mesh,s);}finally{inSetter=false;}
   }
   public static void SetUI(Text text,string s) {if(text==null)return;Ensure();var input=text.GetComponentInParent<InputField>();if(input==null||input.textComponent!=text)s=Localize(s);text.text=s;if(HasChinese(s)) {text.font=ChineseFont;text.horizontalOverflow=HorizontalWrapMode.Wrap;text.verticalOverflow=VerticalWrapMode.Truncate;text.resizeTextForBestFit=true;text.resizeTextMinSize=10;text.resizeTextMaxSize=Math.Max(10,text.fontSize);} }
-  public static void SetTMP(TMPro.TMP_Text text,string s) {if(text==null)return;Ensure();if(text.GetComponentInParent<TMPro.TMP_InputField>()!=null){text.text=s;return;}s=Localize(s);text.text=s;if(HasChinese(s)){if(tmpFont==null)tmpFont=TMPro.TMP_FontAsset.CreateFontAsset(ChineseFont);text.font=tmpFont;text.enableWordWrapping=true;text.enableAutoSizing=true;text.fontSizeMin=10;text.fontSizeMax=Math.Max(10,text.fontSize);}}
+  public static void SetTMP(TMPro.TMP_Text text,string s) {
+   if(text==null)return;Ensure();if(text.GetComponentInParent<TMPro.TMP_InputField>()!=null){text.text=s;return;}
+   s=Localize(s);text.text=s;
+   if(HasChinese(s)){var bridge=text.GetComponent<TMPCompatibility>();if(bridge==null)bridge=text.gameObject.AddComponent<TMPCompatibility>();bridge.Bind(text);}
+  }
  }
  public class Layout : MonoBehaviour {
   static Dictionary<int,MeshState> states=new Dictionary<int,MeshState>();
@@ -113,7 +116,8 @@ namespace MaoChinese {
    return best;
   }
   public static void Apply(TextMesh mesh,string raw) {
-   if(mesh==null||!Display.HasChinese(raw))return;
+   if(mesh==null||!Display.HasChinese(raw)||mesh.GetComponentInParent<TMPCompatibility>()!=null||mesh.name=="ChinesePopupDisplay")return;
+   if(mesh.transform.parent!=null&&mesh.transform.parent.name.StartsWith("Okoshko")) {var popup=mesh.GetComponent<PopupCompatibility>();if(popup==null)popup=mesh.gameObject.AddComponent<PopupCompatibility>();popup.Bind(mesh);return;}
    int id=mesh.GetInstanceID();MeshState st;
    if(!states.TryGetValue(id,out st)) {st=new MeshState{size=mesh.characterSize,box=Box(mesh),source=raw};states[id]=st;}
    if(st.last==raw)return;
@@ -145,6 +149,65 @@ namespace MaoChinese {
    TutorialArt.Refresh();
    foreach(var mesh in UnityEngine.Object.FindObjectsOfType<TextMesh>()) {string s=Display.Localize(mesh.text);if(scene==5&&mesh.transform.parent!=null&&mesh.transform.parent.name.StartsWith("Aud"))s=s.Replace('\n',' ').Replace('|',' ');if(s!=mesh.text)mesh.text=s;Apply(mesh,s);}
    foreach(var text in UnityEngine.Object.FindObjectsOfType<Text>()) {var input=text.GetComponentInParent<InputField>();string s=(input!=null&&input.textComponent==text)?text.text:Display.Localize(text.text);if(s!=text.text)text.text=s;if(Display.HasChinese(s)&&text.font!=Display.ChineseFont){text.font=Display.ChineseFont;text.horizontalOverflow=HorizontalWrapMode.Wrap;text.resizeTextForBestFit=true;text.resizeTextMinSize=10;}}
+   foreach(var text in UnityEngine.Object.FindObjectsOfType<TMPro.TMP_Text>()) {if(text.GetComponentInParent<TMPro.TMP_InputField>()!=null)continue;string s=Display.Localize(text.text);if(s!=text.text)text.text=s;if(Display.HasChinese(s)){var bridge=text.GetComponent<TMPCompatibility>();if(bridge==null)bridge=text.gameObject.AddComponent<TMPCompatibility>();bridge.Bind(text);}}
   }
+ }
+ // Render popup glyphs in a fresh native renderer; preserve the game's text reference.
+ public class PopupCompatibility : MonoBehaviour {
+  TextMesh original,display;string last;Vector3 lastBox;
+  public void Bind(TextMesh text){original=text;Refresh();}
+  void LateUpdate(){Refresh();}
+  void Refresh(){
+   if(original==null)return;
+   if(display==null){var go=new GameObject("ChinesePopupDisplay");go.layer=original.gameObject.layer;go.transform.SetParent(original.transform,false);display=go.AddComponent<TextMesh>();display.font=Display.ChineseFont;display.fontSize=32;display.richText=true;display.characterSize=original.characterSize;display.anchor=original.anchor;display.alignment=original.alignment;display.color=Color.white;var r=display.GetComponent<MeshRenderer>();r.sharedMaterial=display.font.material;var background=original.transform.parent.GetComponent<SpriteRenderer>();if(background!=null){r.sortingLayerID=background.sortingLayerID;r.sortingOrder=background.sortingOrder+1;}}
+   original.GetComponent<MeshRenderer>().enabled=false;
+   string value=Display.Localize(original.text);var backing=original.transform.parent.GetComponent<SpriteRenderer>();Vector3 box=backing==null?Vector3.zero:backing.bounds.size;
+   if(last!=value||lastBox!=box){display.characterSize=original.characterSize;display.text=value;var bounds=display.GetComponent<Renderer>().bounds;float fit=1;if(box.x>.1f&&bounds.size.x>box.x*.9f)fit=Math.Min(fit,box.x*.9f/bounds.size.x);if(box.y>.1f&&bounds.size.y>box.y*.9f)fit=Math.Min(fit,box.y*.9f/bounds.size.y);display.characterSize*=fit;last=value;lastBox=box;}
+  }
+ }
+ // System-created fonts have no embedded font data for this game's TMP FontEngine.
+ // Keep the original TMP component and its text; render CJK through native Unity text.
+ public class TMPCompatibility : MonoBehaviour {
+  TMPro.TMP_Text original;TextMesh mesh;Text ui;string last;Vector2 lastRect;Color lastColor;float lastSize;
+  bool originallyEnabled;bool bound;
+  public void Bind(TMPro.TMP_Text text) {if(!bound){original=text;originallyEnabled=text.enabled;bound=true;}Refresh();}
+  void LateUpdate(){Refresh();}
+  void Refresh() {
+   if(original==null)return;
+   string value=Display.Localize(original.text);
+   if(!Display.HasChinese(value)) {if(mesh!=null)mesh.gameObject.SetActive(false);if(ui!=null)ui.gameObject.SetActive(false);original.enabled=originallyEnabled;last=null;return;}
+   original.enabled=false;
+   var rt=original.rectTransform;Rect rect=rt.rect;Vector4 margin=original.margin;
+   int alignment=(int)original.alignment;
+   int column=(alignment&4)!=0?2:(alignment&2)!=0?1:0;
+   int row=(alignment&1024)!=0?2:(alignment&512)!=0?1:0;
+   TextAnchor anchor=(TextAnchor)(row*3+column);
+   if(original is TMPro.TextMeshProUGUI) {
+    if(ui==null){var child=new GameObject("ChineseTMPDisplay",typeof(RectTransform));child.transform.SetParent(rt,false);ui=child.AddComponent<Text>();ui.raycastTarget=false;}
+    ui.gameObject.SetActive(true);var urt=ui.rectTransform;urt.anchorMin=Vector2.zero;urt.anchorMax=Vector2.one;urt.offsetMin=new Vector2(margin.x,margin.w);urt.offsetMax=new Vector2(-margin.z,-margin.y);
+    ui.font=Display.ChineseFont;ui.text=value;ui.color=original.color;ui.alignment=anchor;ui.fontSize=Math.Max(10,(int)Math.Ceiling(original.fontSize));ui.supportRichText=true;ui.horizontalOverflow=HorizontalWrapMode.Wrap;ui.verticalOverflow=VerticalWrapMode.Truncate;ui.resizeTextForBestFit=true;ui.resizeTextMaxSize=ui.fontSize;ui.resizeTextMinSize=Math.Max(8,(int)(ui.fontSize*.5f));
+    return;
+   }
+   if(mesh==null){var child=new GameObject("ChineseTMPDisplay");child.transform.SetParent(rt,false);mesh=child.AddComponent<TextMesh>();mesh.font=Display.ChineseFont;mesh.fontSize=32;mesh.richText=true;var mr=mesh.GetComponent<MeshRenderer>();var source=original.GetComponent<MeshRenderer>();mr.sharedMaterial=mesh.font.material;if(source!=null){mr.sortingLayerID=source.sortingLayerID;mr.sortingOrder=source.sortingOrder;}}
+   mesh.gameObject.SetActive(true);
+   if(last==value&&lastRect==rect.size&&lastSize==original.fontSize&&lastColor==original.color)return;
+   float left=rect.xMin+margin.x,right=rect.xMax-margin.z,top=rect.yMax-margin.y,bottom=rect.yMin+margin.w;
+   float width=Math.Max(.01f,right-left),height=Math.Max(.01f,top-bottom);
+   mesh.transform.localPosition=new Vector3(column==0?left:column==1?(left+right)*.5f:right,row==0?top:row==1?(top+bottom)*.5f:bottom,-.001f);
+   mesh.anchor=anchor;mesh.alignment=column==0?TextAlignment.Left:column==1?TextAlignment.Center:TextAlignment.Right;mesh.color=original.color;
+   mesh.fontStyle=(original.fontStyle&TMPro.FontStyles.Bold)!=0?FontStyle.Bold:FontStyle.Normal;
+   var renderer=mesh.GetComponent<MeshRenderer>();renderer.sharedMaterial=mesh.font.material;
+   mesh.characterSize=1;mesh.text="国";
+   float unitHeight=renderer.bounds.size.y/Math.Max(.0001f,Math.Abs(mesh.transform.lossyScale.y));
+   float desired=Math.Min(height,Math.Max(.001f,original.fontSize*.1f));
+   mesh.characterSize=desired/Math.Max(.0001f,unitHeight);
+   mesh.text=value;float actualWidth=renderer.bounds.size.x/Math.Max(.0001f,Math.Abs(mesh.transform.lossyScale.x));
+   if(actualWidth>width&&value.Length>12){int lines;mesh.text=Display.Wrap(value,Math.Max(4,width/actualWidth*VisibleWidth(value)),out lines);}
+   float actualHeight=renderer.bounds.size.y/Math.Max(.0001f,Math.Abs(mesh.transform.lossyScale.y));actualWidth=renderer.bounds.size.x/Math.Max(.0001f,Math.Abs(mesh.transform.lossyScale.x));
+   float factor=Math.Min(1,Math.Min(width/Math.Max(.0001f,actualWidth),height/Math.Max(.0001f,actualHeight)));
+   mesh.characterSize*=Math.Max(.05f,factor)*.97f;
+   last=value;lastRect=rect.size;lastSize=original.fontSize;lastColor=original.color;
+  }
+  static float VisibleWidth(string value){float width=0;foreach(char c in Regex.Replace(value,"<[^>]*>",""))if(c!='\n'&&c!='\r')width+=c>=0x2e80?2:1;return Math.Max(1,width);}
  }
 }

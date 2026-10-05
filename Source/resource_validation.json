@@ -3,7 +3,7 @@
     "name": "new_modify_texts_en",
     "lines": 27,
     "source_sha256": "697314a71447483992d7aee5760e94ce9581af1fee6f55e614dd97d003f50744",
-    "translation_sha256": "385bf882b5256f44535fc776f10456be95c8f3eae9681fa3650f0b92c933cbba"
+    "translation_sha256": "2ae642aa07457476fa3ee5500516ad062bbd6982e6b9fb0c3d11ce9143b30fd2"
   },
   {
     "name": "new_event_text_en",
@@ -33,7 +33,7 @@
     "name": "polit_surnames7_en",
     "lines": 48,
     "source_sha256": "9478456d49dbbab3814c07d7740c87695e4073d2045775b0e4810e4d42343f92",
-    "translation_sha256": "72eef88ba2f106ca90ac74821b31486763e7e661a9ef6308145945d062d7cc0b"
+    "translation_sha256": "70bd91f086781cea4c8582e4a9e2fd9997c5c3ed40fe0d53dfc9ca1741e151c1"
   },
   {
     "name": "polit_surnames1_en",
@@ -45,7 +45,7 @@
     "name": "Traits21_en",
     "lines": 20,
     "source_sha256": "fc82869416fa182399dbab044e79bda260ac3417add4b8f67dcd2443be2d4419",
-    "translation_sha256": "787dee6e34af5fe0e4e87e0a2a3dc95a8924e5e7eac433ab5a3050efe63f9686"
+    "translation_sha256": "bd4e1108551facb911929318cb2252eec5ba94c23f0005a2f56927ff043ed229"
   },
   {
     "name": "Opis_en",
@@ -57,25 +57,25 @@
     "name": "Traits7_en",
     "lines": 20,
     "source_sha256": "fc82869416fa182399dbab044e79bda260ac3417add4b8f67dcd2443be2d4419",
-    "translation_sha256": "a9c43fbee9324a260cd28ffd429b3223049be9d30eb3de5cedc01d0f9d5d313c"
+    "translation_sha256": "bd4e1108551facb911929318cb2252eec5ba94c23f0005a2f56927ff043ed229"
   },
   {
     "name": "polit_surnames21_en",
     "lines": 48,
     "source_sha256": "9478456d49dbbab3814c07d7740c87695e4073d2045775b0e4810e4d42343f92",
-    "translation_sha256": "44f2e682696c491f6d32e3b5b2f55e0c725ce25c0ea2ef39cad1b2a607f48063"
+    "translation_sha256": "b2399e8cd449162b6dbc9b1fd4a6cedf9bcfe61515547cc7a580bc9a312dc929"
   },
   {
     "name": "new_focuses_texts_en",
     "lines": 349,
-    "source_sha256": "03e8408c1930eef84c8416c57ceb8dc03e980649b92ad4324367c06fdd694bb0",
-    "translation_sha256": "c0b967307874b3c920f0b79270af5d4c35bcc62ad858337b23179ce0407b133e"
+    "source_sha256": "106b01d109932a74d5d63f113e93b49fc3627e6141f8e00d22027c251fe0fd83",
+    "translation_sha256": "6de844e3541c451f053456c5d0f6d08d43b59bd64963badc031e74ded350d41b"
   },
   {
     "name": "old_modify_opis_en",
     "lines": 67,
     "source_sha256": "391566c686e73a71e4ba24c50da6373eb1fddad9c63a8fb252941b836b16fcb5",
-    "translation_sha256": "171a316185ad18ed3b7baae4a030f022b7d0daf260aa75a0445f7ea6a9ef9868"
+    "translation_sha256": "421e3ccf85a223fe42e4607e3439dcea1d5247c3f584c21a42551e9e14e23e91"
   },
   {
     "name": "Part1_en",
@@ -87,31 +87,31 @@
     "name": "new_modify_opis_en",
     "lines": 27,
     "source_sha256": "3d33645b39b392b96b7bf10c6f262027ef62b01dd8162e5f4c289e87a9b6ab63",
-    "translation_sha256": "c17166cdd2277a04a1e250f27b1d1e93c135a729af13afde5eff7884e0d88fae"
+    "translation_sha256": "df84201c167784c268bb1448758b5f673cc59e0b982d11ddd877cdabaa3c85ec"
   },
   {
     "name": "new_texts_en",
     "lines": 1098,
-    "source_sha256": "d33c80f3cce6b1e0245de12e45bc8567f5ca7ce7ed5f8908e73c8eac997e9c38",
-    "translation_sha256": "9001adb29db05a8212f882b624c86ee3d5ecdfe672608389676fe975266270de"
+    "source_sha256": "a51d3186fe74abc5fc29030c913dc8d03f78d8acb66e81493d49a5b57bcf26f3",
+    "translation_sha256": "e4440deac0638ed64c47339f9bda90178a56fe12c31d1f7126e0de1ee13870cb"
   },
   {
     "name": "Traits1_en",
     "lines": 20,
     "source_sha256": "fc82869416fa182399dbab044e79bda260ac3417add4b8f67dcd2443be2d4419",
-    "translation_sha256": "a9c43fbee9324a260cd28ffd429b3223049be9d30eb3de5cedc01d0f9d5d313c"
+    "translation_sha256": "bd4e1108551facb911929318cb2252eec5ba94c23f0005a2f56927ff043ed229"
   },
   {
     "name": "other_text_en",
     "lines": 598,
     "source_sha256": "262a90317a3b71bf0b5e557b747e196754ee6a991867471f88af7fe5d31fc75e",
-    "translation_sha256": "f5351cb6dd277a81842e83ec5051adf7c2b81ca13076eb80a888f25052fcf785"
+    "translation_sha256": "b198fabbf771c46614aa0e291850288cb40bc1507154746b063dced60c9fd064"
   },
   {
     "name": "Doctr_en",
     "lines": 1,
     "source_sha256": "82c6f37eae03ed11d599cf1e139ee9e61c9bfed6d98d239b78bd681c9219bd91",
-    "translation_sha256": "93469e7ce2db333c72920d4aa633b478d13872cb6c0756e1adfdf7d9326a36b9"
+    "translation_sha256": "86a159e780cc69114510595fff2ec6790d2d8bf13a4df2d8556727094b017f74"
   },
   {
     "name": "polit_names7_en",
@@ -128,13 +128,13 @@
   {
     "name": "Events_text_en",
     "lines": 1664,
-    "source_sha256": "ed53ff2f0e7875e371dd7205e3d9affa204d7b65d10ed2a0bd914287dc6a8bce",
-    "translation_sha256": "3a205b551d5c675e48f44f43aa37e604319d8040a16187dc1ea63a3723c209f5"
+    "source_sha256": "f4dd26f8e1decbf5d53fb034596ef655f354c0c083cd690f831ae73ee2b7280d",
+    "translation_sha256": "dcd80fe897d5692dbff32032a11040db1724c5a0dd2fd194fea63481b1708102"
   },
   {
     "name": "old_modify_text_en",
     "lines": 67,
     "source_sha256": "20d75a28e4c1d29c386f1869c43bbedde16ffb447bd96abca903f8f19915e5f2",
-    "translation_sha256": "d741f77784009ea7cdd77d33636137dce3158918e62234d8cd6026f8aa6d8843"
+    "translation_sha256": "a6ccbaca70b99b90262d1669b4b1215f7516688ca3847d280d5b054c390a03bc"
   }
 ]

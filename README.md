@@ -4,6 +4,18 @@
 
 **如有纰漏，请在评论中反馈。** 请在[汉化问题反馈帖](https://github.com/Clukay-416/Mao-s-Legacy-Full-Chinese/issues/1)评论，或[新建 Issue](https://github.com/Clukay-416/Mao-s-Legacy-Full-Chinese/issues/new)，附上游戏版本、出现问题的页面、操作步骤和截图。
 
+## zh.2 修复与译校
+
+- 修复外交国家名显示方框：系统动态字体无法直接创建游戏内 TMP 字体，现在保留原 TMP 文字组件和数据，通过兼容显示层绘制中文，并按原文本框对齐、换行和缩放。
+- 修复黑底悬浮提示中文字对比度和渲染顺序，保证文字位于背景之上。
+- 对全库 7,585 条显示词条和 4,419 行资源做术语检查；修正 416 条显示词条、258 行资源译文。统一特工网络、外交声望、思想解放、职业军队等用语，修正十世班禅、赛福鼎、包尔汉等姓名，补回遗漏的数值效果。逐条变更见 `Source/review_log.json`。
+- 当前新游戏地图中 86 个国家的标题切换未发现缺字或空标题；外交按钮悬停说明和条件已复核，2,535 个汉字的系统字体字形检查通过。
+- 支持从 zh.1 直接升级，仍使用校验通过的原版备份；升级失败会恢复升级前的文件。
+
+原版点击国家后会先清空操作说明和条件栏；鼠标移到左下方外交按钮上才显示对应说明。图标说明同样需要悬停。
+
+本次是全库术语统一和重点界面润色，仍未完成全部剧情逐段人工精校。历史及架空剧情中的称谓按原作语境保留。
+
 ## 引用与修改说明
 
 本项目基于 **LeXwDeX** 的 [Mao-s-Legacy-Chinese-Tools](https://github.com/LeXwDeX/Mao-s-Legacy-Chinese-Tools) **引用并修改**，沿用其中文翻译基础，补充遗漏译文，并重新实现适配当前游戏文件的显示层、字体、排版、教程图片文字覆盖及差分安装器。感谢原作者及原项目贡献者。
@@ -12,7 +24,7 @@
 
 ## 下载与安装
 
-1. 从 [Releases](https://github.com/Clukay-416/Mao-s-Legacy-Full-Chinese/releases/latest) 下载 **MaoChinese-Public-1.8.5-zh.1.zip**，完整解压。
+1. 从 [Releases](https://github.com/Clukay-416/Mao-s-Legacy-Full-Chinese/releases/latest) 下载 **MaoChinese-Public-1.8.5-zh.2.zip**，完整解压。
 2. 关闭游戏，双击 **Install.cmd**。安装器会尝试定位 Steam 游戏目录；无法定位时，请输入包含 `China.exe` 的目录。
 3. 成功后，从 Steam 正常启动游戏。补丁自动选择对应的中文显示资源。
 
@@ -30,7 +42,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Install.ps1 -GameRoot 
 
 - 23 份文本资源、4,419 行，保留游戏解析标记和内部键。
 - 7,585 条显示翻译映射，补充国家、人名、组织、按钮、政策及事件文本。
-- 系统微软雅黑字体，黑体及宋体后备；已核对译文使用的 2,532 个汉字均有字形。
+- 系统微软雅黑字体，黑体及宋体后备；已核对译文使用的 2,535 个汉字均有字形。
 - 15 个显示换行函数接入中文宽度计算，先翻译再换行，保留颜色标签；根据背景框、锚点及尺寸收缩长文本。
 - 普通界面、提示框、事件选项与结果页、分辨率窗口接入中文显示。
 - 教程截图按钮文字及部分 DLC 宣传图标题使用游戏内中文覆盖层；旗帜、人物、符号和历史海报保持原画。
@@ -44,6 +56,10 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Install.ps1 -GameRoot 
 Steam 更新或验证文件可能覆盖补丁；更新后应重新核对版本。联机兼容性尚未实测，联机玩家建议使用同版本补丁。
 
 ## 游戏实测截图
+
+![外交国家名及条件](预览/外交修复.png)
+
+![外交图标提示](预览/外交提示.png)
 
 ![主菜单](预览/主菜单.png)
 
@@ -59,4 +75,4 @@ Steam 更新或验证文件可能覆盖补丁；更新后应重新核对版本�
 
 `Source/` 提供显示层、教程覆盖层、程序集注入器、差分工具、显示词典、资源逐行译文及校验记录。修改 `Source/translations.json`、`Source/supplement.json` 或 `Source/textassets.json` 时，请同步相关显示词条与资源译文，并保留格式占位符、颜色标签和内部键。
 
-重建方法见 [BUILD.md](BUILD.md)。发布版本：`v1.8.5-zh.1`，制作日期：2026-10-05。
+重建方法见 [BUILD.md](BUILD.md)。发布版本：`v1.8.5-zh.2`，制作日期：2026-10-05。

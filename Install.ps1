@@ -40,7 +40,8 @@ foreach($entry in $manifest.files){
     if((Hash (ScopedPath $packageRoot $entry.payload)) -ne $entry.payload_sha256){throw ('Package checksum failed: '+$entry.payload)}
     $current=Hash (ScopedPath $GameRoot $entry.path)
     if($current -ne $entry.patched){$allInstalled=$false}
-    if($current -ne $entry.original -and $current -ne $entry.patched){throw ('Unsupported game version or modified file: '+$entry.path)}
+    $allowed=@($entry.original,$entry.patched)+@($entry.accepted_previous)
+    if($allowed -notcontains $current){throw ('Unsupported game version or modified file: '+$entry.path)}
     if($entry.original){
         $backupFile=ScopedPath $backup $entry.path
         if(Test-Path -LiteralPath $backupFile){
@@ -53,6 +54,9 @@ if(-not ('MaoDelta' -as [type])){Add-Type -Path (Join-Path $packageRoot 'Source\
 $stage=ScopedPath $GameRoot ('.MaoChineseStaging-'+[Guid]::NewGuid().ToString('N'))
 New-Item -ItemType Directory -Path $stage | Out-Null
 $writesStarted=$false
+$previous=@{}
+$record=Join-Path $backup 'manifest.json'
+$hadRecord=Test-Path -LiteralPath $record
 try{
     # Reconstruct and verify every result before changing installed files.
     foreach($entry in $manifest.files){
@@ -77,7 +81,17 @@ try{
         }
     }
     New-Item -ItemType Directory -Path $backup -Force | Out-Null
-    Copy-Item -LiteralPath (Join-Path $packageRoot 'manifest.json') -Destination (Join-Path $backup 'manifest.json') -Force
+    # Preserve the current installation for rollback, including an earlier patch.
+    foreach($entry in $manifest.files){
+        $target=ScopedPath $GameRoot $entry.path
+        $saved=ScopedPath $stage ('Rollback/'+$entry.path)
+        $previous[$entry.path]=Test-Path -LiteralPath $target -PathType Leaf
+        if($previous[$entry.path]){
+            New-Item -ItemType Directory -Path ([IO.Path]::GetDirectoryName($saved)) -Force | Out-Null
+            Copy-Item -LiteralPath $target -Destination $saved
+        }
+    }
+    if($hadRecord){Copy-Item -LiteralPath $record -Destination (Join-Path $stage 'previous-manifest.json')}
     $writesStarted=$true
     foreach($entry in $manifest.files){
         $target=ScopedPath $GameRoot $entry.path
@@ -85,13 +99,16 @@ try{
         Copy-Item -LiteralPath (ScopedPath $stage $entry.path) -Destination $target -Force
         if((Hash $target) -ne $entry.patched){throw ('Installed checksum failed: '+$entry.path)}
     }
+    Copy-Item -LiteralPath (Join-Path $packageRoot 'manifest.json') -Destination $record -Force
 }catch{
     if($writesStarted){
         foreach($entry in $manifest.files){
             $target=ScopedPath $GameRoot $entry.path
-            if($entry.original){Copy-Item -LiteralPath (ScopedPath $backup $entry.path) -Destination $target -Force}
-            elseif((Hash $target) -eq $entry.patched){Remove-Item -LiteralPath $target}
+            if($previous[$entry.path]){Copy-Item -LiteralPath (ScopedPath $stage ('Rollback/'+$entry.path)) -Destination $target -Force}
+            elseif(Test-Path -LiteralPath $target){Remove-Item -LiteralPath $target}
         }
+        if($hadRecord){Copy-Item -LiteralPath (Join-Path $stage 'previous-manifest.json') -Destination $record -Force}
+        elseif(Test-Path -LiteralPath $record){Remove-Item -LiteralPath $record}
     }
     throw
 }finally{
