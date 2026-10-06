@@ -1,0 +1,4700 @@
+{
+  "summary": {
+    "static_text_items": 521,
+    "changed_by_shipped_matcher": 122,
+    "contains_cjk": 122,
+    "foreign_candidates": 400,
+    "note": "包含原始序列化的未激活对象与俄文分支；外文候选不能当作实机漏译率。另需核查烘焙贴图和动态组合。"
+  },
+  "rows": [
+    {
+      "file": "level10",
+      "pid": 87,
+      "source": "РЕВОЛЮЦИОННОЕ СВЕРЖЕНИЕ",
+      "display": "РЕВОЛЮЦИОННОЕ СВЕРЖЕНИЕ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level10",
+      "pid": 88,
+      "source": "Из-за аааааавашей чрезмерно радиАААААААААААААкальной и поспешной АААААААААААААААААА\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп",
+      "display": "Из-за аааааавашей чрезмерно радиАААААААААААААкальной и поспешной АААААААААААААААААА\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп\nп",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level11",
+      "pid": 349,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 350,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 351,
+      "source": "жээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээ",
+      "display": "жээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээээ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level11",
+      "pid": 352,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 353,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 354,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 355,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 357,
+      "source": "ЗАГОЛОВОК",
+      "display": "ЗАГОЛОВОК",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level11",
+      "pid": 358,
+      "source": "ЗАГОЛОВОК",
+      "display": "ЗАГОЛОВОК",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level11",
+      "pid": 359,
+      "source": "ЗАГОЛОВОК\nККККАГОМЭэээээээээээээээээээ\n",
+      "display": "ЗАГОЛОВОК\nККККАГОМЭэээээээээээээээээээ\n",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level11",
+      "pid": 360,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 362,
+      "source": "ЗАГОЛОВОК",
+      "display": "ЗАГОЛОВОК",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level11",
+      "pid": 363,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 365,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 366,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 367,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 369,
+      "source": "ЗАГОЛОВОК",
+      "display": "ЗАГОЛОВОК",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level11",
+      "pid": 370,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 371,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 372,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 375,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 376,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 377,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 378,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 379,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 381,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 382,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 383,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 384,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 385,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 386,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 388,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 389,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 391,
+      "source": "ЗАГОЛОВОК",
+      "display": "ЗАГОЛОВОК",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level11",
+      "pid": 392,
+      "source": "ЗАГОЛОВОК",
+      "display": "ЗАГОЛОВОК",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level11",
+      "pid": 393,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 394,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 395,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level11",
+      "pid": 396,
+      "source": "Номер ответа:\n6",
+      "display": "Номер ответа:\n6",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level12",
+      "pid": 46,
+      "source": "Без достижений\nСлот №4",
+      "display": "Без достижений\nСлот №4",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level12",
+      "pid": 47,
+      "source": "Без достижений\nСлот №1",
+      "display": "Без достижений\nСлот №1",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level12",
+      "pid": 49,
+      "source": "Без достижений\nСлот №2",
+      "display": "Без достижений\nСлот №2",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level12",
+      "pid": 50,
+      "source": "Без достижений\nСлот №3",
+      "display": "Без достижений\nСлот №3",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level12",
+      "pid": 51,
+      "source": "Слот \nС достижениями\n",
+      "display": "Слот \nС достижениями\n",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level13",
+      "pid": 46,
+      "source": "Без достижений\nСлот №2",
+      "display": "Без достижений\nСлот №2",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level13",
+      "pid": 47,
+      "source": "Без достижений\nСлот №3",
+      "display": "Без достижений\nСлот №3",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level13",
+      "pid": 48,
+      "source": "Без достижений\nСлот №4",
+      "display": "Без достижений\nСлот №4",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level13",
+      "pid": 49,
+      "source": "Слот \nС достижениями\n",
+      "display": "Слот \nС достижениями\n",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level13",
+      "pid": 50,
+      "source": "Без достижений\nСлот №1",
+      "display": "Без достижений\nСлот №1",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1537,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1538,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1539,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1540,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1541,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1542,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1543,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1544,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1545,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1546,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1547,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1548,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1550,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1551,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1552,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1553,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1554,
+      "source": "Открыть\nследствие",
+      "display": "Открыть\nследствие",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1555,
+      "source": "Сослать на\nперевоспитание",
+      "display": "Сослать на\nперевоспитание",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1556,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1558,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1559,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1560,
+      "source": "Слежка",
+      "display": "Слежка",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1561,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1562,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1563,
+      "source": "Утвердить\nв Военсовет",
+      "display": "Утвердить\nв Военсовет",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1564,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1565,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1566,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1567,
+      "source": "Назначить на\nЗапад",
+      "display": "Назначить на\nЗапад",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1568,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1570,
+      "source": "Назначить на\nЮг",
+      "display": "Назначить на\nЮг",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1571,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1572,
+      "source": "Zhang Chunqiao\nZhang Chunqiao\nZhang Chunqiao",
+      "display": "张春桥\n张春桥\n张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1573,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1574,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1575,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1576,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1577,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1578,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1579,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1580,
+      "source": "Автотравля",
+      "display": "Автотравля",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1581,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1582,
+      "source": " Назначить \nлидером фракции",
+      "display": " Назначить \nлидером фракции",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1583,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1584,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1585,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1586,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1587,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1588,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1590,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1591,
+      "source": "Утвердить\nПремьером",
+      "display": "Утвердить\nПремьером",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1592,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1593,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1594,
+      "source": "Поддержать",
+      "display": "Поддержать",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1595,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1596,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1597,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1598,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1599,
+      "source": "Утвердить\nв Военсовет",
+      "display": "Утвердить\nв Военсовет",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1600,
+      "source": "Назначить в\nСтолицу",
+      "display": "Назначить в\nСтолицу",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1601,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1602,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1603,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1604,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1605,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1606,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1607,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1608,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1609,
+      "source": "Утвердить\nМИД",
+      "display": "Утвердить\nМИД",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1610,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1611,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1612,
+      "source": "Подкупить",
+      "display": "Подкупить",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1613,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1614,
+      "source": "Назначить на\nВосток",
+      "display": "Назначить на\nВосток",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1616,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1617,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1618,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1619,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1620,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1621,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1622,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1623,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1624,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1625,
+      "source": "Zhang Chunqiao",
+      "display": "张春桥",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1627,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1628,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1629,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1630,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1631,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1632,
+      "source": "Назначить на\nСевер",
+      "display": "Назначить на\nСевер",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1633,
+      "source": "Автоподдержка",
+      "display": "Автоподдержка",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1634,
+      "source": "Травить",
+      "display": "Травить",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1636,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1637,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1638,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1639,
+      "source": "Zhang Chunqiao\nZhang Chunqiao\nZhang Chunqiao\nZhang Chunqiao\nZhang Chunqiao\n",
+      "display": "张春桥\n张春桥\n张春桥\n张春桥\n张春桥\n",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level14",
+      "pid": 1640,
+      "source": "Недееспособ",
+      "display": "Недееспособ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1641,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1642,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1643,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1644,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1645,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1646,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1647,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1648,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1649,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1650,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1651,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1652,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1653,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1654,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1655,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1656,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1657,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level14",
+      "pid": 1658,
+      "source": "Отношения",
+      "display": "Отношения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level15",
+      "pid": 190,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level15",
+      "pid": 192,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level15",
+      "pid": 193,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level15",
+      "pid": 200,
+      "source": "ПОЛИТИКИ",
+      "display": "ПОЛИТИКИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level15",
+      "pid": 202,
+      "source": "Очки\nвмешательства",
+      "display": "Очки\nвмешательства",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level15",
+      "pid": 203,
+      "source": "Экономика",
+      "display": "Экономика",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level15",
+      "pid": 205,
+      "source": "КАРТА МИРА",
+      "display": "КАРТА МИРА",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level15",
+      "pid": 206,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level15",
+      "pid": 207,
+      "source": "Наука",
+      "display": "Наука",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level15",
+      "pid": 208,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level15",
+      "pid": 209,
+      "source": "ОБЗОР",
+      "display": "ОБЗОР",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level15",
+      "pid": 210,
+      "source": "ДОКТРИНЫ",
+      "display": "ДОКТРИНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level16",
+      "pid": 107,
+      "source": "ЗАГОЛОВОКК\nККККККетринннннннннннннннннн",
+      "display": "ЗАГОЛОВОКК\nККККККетринннннннннннннннннн",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level16",
+      "pid": 111,
+      "source": "ккккккеееккккккккккккккккккккккккккккккккккккккккккккккккккккккккккккккккккк",
+      "display": "ккккккеееккккккккккккккккккккккккккккккккккккккккккккккккккккккккккккккккккк",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level17",
+      "pid": 23,
+      "source": "ТТТТТТТТТTTTTTTTTTTTТТТТTTTТТТТТТТТТТТТТТТТТ\nT\nt\nt\nt\nt\nt\nt\nt\nt\nt\nt\nt\nt\nt",
+      "display": "ТТТТТТТТТTTTTTTTTTTTТТТТTTTТТТТТТТТТТТТТТТТТ\nT\nt\nt\nt\nt\nt\nt\nt\nt\nt\nt\nt\nt\nt",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level18",
+      "pid": 38,
+      "source": "Владимир Ленин",
+      "display": "Владимир Ленин",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level18",
+      "pid": 39,
+      "source": "Сила политиков:",
+      "display": "Сила политиков:",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level18",
+      "pid": 40,
+      "source": "Сила политиков:",
+      "display": "Сила политиков:",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level2",
+      "pid": 92,
+      "source": "Выбранная страна",
+      "display": "Выбранная страна",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level2",
+      "pid": 93,
+      "source": "Правила игры",
+      "display": "Правила игры",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level2",
+      "pid": 94,
+      "source": "НАСТРОЙКИ",
+      "display": "НАСТРОЙКИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level2",
+      "pid": 96,
+      "source": "Загрузить",
+      "display": "Загрузить",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level2",
+      "pid": 97,
+      "source": "АВТОРЫ",
+      "display": "АВТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level2",
+      "pid": 99,
+      "source": "Обучение",
+      "display": "Обучение",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level2",
+      "pid": 100,
+      "source": "Новая игра",
+      "display": "Новая игра",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level2",
+      "pid": 101,
+      "source": "ВЫХОД",
+      "display": "ВЫХОД",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 127,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 128,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 129,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 130,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 131,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 132,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 133,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 134,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 135,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 136,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 137,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 138,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 139,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 140,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 141,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level20",
+      "pid": 142,
+      "source": "ddddddd",
+      "display": "ddddddd",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 379,
+      "source": "ДОКТРИНЫ",
+      "display": "ДОКТРИНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 380,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 381,
+      "source": "ВОЙНЫ",
+      "display": "ВОЙНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 382,
+      "source": "экономическая",
+      "display": "экономическая",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 383,
+      "source": "ДОКТРИНЫ",
+      "display": "ДОКТРИНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 384,
+      "source": "Экономика",
+      "display": "Экономика",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 385,
+      "source": "Обзор",
+      "display": "Обзор",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 388,
+      "source": "China:\n Mao's legacy",
+      "display": "中国:\n 毛泽东的遗产",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level21",
+      "pid": 390,
+      "source": "Экономика",
+      "display": "Экономика",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 392,
+      "source": "РЕСПУБЛИКА КОРЕЯ",
+      "display": "РЕСПУБЛИКА КОРЕЯ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 396,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 397,
+      "source": "Наука",
+      "display": "Наука",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 398,
+      "source": "ПОЛИТИКИ",
+      "display": "ПОЛИТИКИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 399,
+      "source": "военная",
+      "display": "военная",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 400,
+      "source": "Выход",
+      "display": "Выход",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 403,
+      "source": "ПОЛИТИКИ",
+      "display": "ПОЛИТИКИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 404,
+      "source": "правление",
+      "display": "правление",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 405,
+      "source": "Обзор",
+      "display": "Обзор",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 406,
+      "source": "Сохранить",
+      "display": "Сохранить",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 407,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 411,
+      "source": "Наука",
+      "display": "Наука",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 412,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 413,
+      "source": "ВЛИЯНИЕ",
+      "display": "ВЛИЯНИЕ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 417,
+      "source": "Настройки",
+      "display": "Настройки",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 419,
+      "source": "Конец",
+      "display": "Конец",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level21",
+      "pid": 420,
+      "source": "ВОЙНЫ",
+      "display": "ВОЙНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 407,
+      "source": "Агенты",
+      "display": "Агенты",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 408,
+      "source": "очки науки",
+      "display": "очки науки",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 409,
+      "source": "ДОКТРИНЫ",
+      "display": "ДОКТРИНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 417,
+      "source": "Обзор",
+      "display": "Обзор",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 418,
+      "source": "лояльность\nнаселения",
+      "display": "лояльность\nнаселения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 420,
+      "source": "ВОЙНЫ",
+      "display": "ВОЙНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 424,
+      "source": "Уровень\nжизни",
+      "display": "Уровень\nжизни",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 428,
+      "source": "Услуги",
+      "display": "Услуги",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 437,
+      "source": "влияние кнр",
+      "display": "влияние кнр",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 439,
+      "source": "Деньги",
+      "display": "Деньги",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 440,
+      "source": "Лояльность\nпартии",
+      "display": "Лояльность\nпартии",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 445,
+      "source": "Сельхоз",
+      "display": "Сельхоз",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 450,
+      "source": "Промышленность",
+      "display": "Промышленность",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 451,
+      "source": "Коррупция",
+      "display": "Коррупция",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 455,
+      "source": "Наука",
+      "display": "Наука",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 458,
+      "source": "КАРТА МИРА",
+      "display": "КАРТА МИРА",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 460,
+      "source": "ПОЛИТИКИ",
+      "display": "ПОЛИТИКИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 466,
+      "source": "Армия",
+      "display": "Армия",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level23",
+      "pid": 472,
+      "source": "Дипрепутация",
+      "display": "Дипрепутация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level24",
+      "pid": 283,
+      "source": "Не выполнены условия для старта",
+      "display": "Не выполнены условия для старта",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level24",
+      "pid": 284,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 285,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 286,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 287,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 289,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 290,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 291,
+      "source": "Каждый игрок должен выбрать как минимум 1 фракцию.\nИгроки не могут обладать одной и той же фракцией.",
+      "display": "Каждый игрок должен выбрать как минимум 1 фракцию.\nИгроки не могут обладать одной и той же фракцией.",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level24",
+      "pid": 292,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 294,
+      "source": "Выбери свои фракции!",
+      "display": "Выбери свои фракции!",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level24",
+      "pid": 296,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 297,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 298,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 299,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 300,
+      "source": "РЕФОРМАТОРЫ",
+      "display": "РЕФОРМАТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level24",
+      "pid": 301,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 304,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 306,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 308,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 309,
+      "source": "умеренные",
+      "display": "умеренные",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level24",
+      "pid": 311,
+      "source": "консерваторы",
+      "display": "консерваторы",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level24",
+      "pid": 312,
+      "source": "ЛИБЕРАЛЫ",
+      "display": "ЛИБЕРАЛЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level24",
+      "pid": 313,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 314,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 315,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 317,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 318,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 319,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 321,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 322,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 323,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 324,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level24",
+      "pid": 325,
+      "source": "МАОИСТЫ",
+      "display": "МАОИСТЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 516,
+      "source": "КОНСЕРВАТОРЫ",
+      "display": "КОНСЕРВАТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 517,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 518,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 519,
+      "source": "Территориальное устройство",
+      "display": "Территориальное устройство",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 521,
+      "source": "Развитой Социализм",
+      "display": "Развитой Социализм",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 522,
+      "source": "КОНСЕРВАТОРЫ",
+      "display": "КОНСЕРВАТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 524,
+      "source": "КОНСЕРВАТОРЫ",
+      "display": "КОНСЕРВАТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 526,
+      "source": "КОНСЕРВАТОРЫ",
+      "display": "КОНСЕРВАТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 527,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 528,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 529,
+      "source": "ТРАДИЦИЯ И РЕЛИГИЯ",
+      "display": "ТРАДИЦИЯ И РЕЛИГИЯ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 531,
+      "source": "КОНСЕРВАТОРЫ",
+      "display": "КОНСЕРВАТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 532,
+      "source": "КОНСЕРВАТОРЫ",
+      "display": "КОНСЕРВАТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 533,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 534,
+      "source": "КОНСЕРВАТОРЫ",
+      "display": "КОНСЕРВАТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 535,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 536,
+      "source": "Закрытие Конгресса",
+      "display": "Закрытие Конгресса",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 537,
+      "source": "Экономика",
+      "display": "Экономика",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 538,
+      "source": "КАРТА МИРА",
+      "display": "КАРТА МИРА",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 539,
+      "source": "ВОЙНЫ",
+      "display": "ВОЙНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 540,
+      "source": "Ортодоксальный соци",
+      "display": "Ортодоксальный соци",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 543,
+      "source": "КОНСЕРВАТОРЫ",
+      "display": "КОНСЕРВАТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 544,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 545,
+      "source": "Развитой Социализм",
+      "display": "Развитой Социализм",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 546,
+      "source": "ВООРУЖЁННЫЕ СИЛЫ",
+      "display": "ВООРУЖЁННЫЕ СИЛЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 547,
+      "source": "Экономическая модель",
+      "display": "Экономическая модель",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 548,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 550,
+      "source": "ОТНОШЕНИЕ К ПАРТИЯМ",
+      "display": "ОТНОШЕНИЕ К ПАРТИЯМ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 551,
+      "source": "Два ребёнка",
+      "display": "Два ребёнка",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 552,
+      "source": "Обзор",
+      "display": "Обзор",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 553,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 555,
+      "source": "нет ограничений",
+      "display": "нет ограничений",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 557,
+      "source": "Военный альянс",
+      "display": "Военный альянс",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 558,
+      "source": "Эконом. АЛЬЯНС",
+      "display": "Эконом. АЛЬЯНС",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 559,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 560,
+      "source": "Народная коалиция",
+      "display": "Народная коалиция",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 561,
+      "source": "ГОССТРОЙ",
+      "display": "ГОССТРОЙ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 562,
+      "source": "Развитой Социализм",
+      "display": "Развитой Социализм",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 563,
+      "source": "Наука",
+      "display": "Наука",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 564,
+      "source": "КОНСЕРВАТОРЫ",
+      "display": "КОНСЕРВАТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 566,
+      "source": "ПОЛИТИКИ",
+      "display": "ПОЛИТИКИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 567,
+      "source": "Гражданские СВОБОДЫ",
+      "display": "Гражданские СВОБОДЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 569,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 570,
+      "source": "Политика по отношению к семье",
+      "display": "Политика по отношению к семье",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 571,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 572,
+      "source": "Развитой Социализм",
+      "display": "Развитой Социализм",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 573,
+      "source": "Развитой Социализм",
+      "display": "Развитой Социализм",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 574,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 575,
+      "source": "ВЫБОРЫ",
+      "display": "ВЫБОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 578,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 580,
+      "source": "ФРАКЦИИ КОММУНИСТИЧЕСКОЙ ПАРТИИ",
+      "display": "ФРАКЦИИ КОММУНИСТИЧЕСКОЙ ПАРТИИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 581,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level3",
+      "pid": 583,
+      "source": "КОНСЕРВАТОРЫ",
+      "display": "КОНСЕРВАТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 584,
+      "source": "КОНСЕРВАТОРЫ",
+      "display": "КОНСЕРВАТОРЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 586,
+      "source": "Один ребёнок",
+      "display": "Один ребёнок",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level3",
+      "pid": 587,
+      "source": "ЛИНИЯ ПАРТИИ",
+      "display": "ЛИНИЯ ПАРТИИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level4",
+      "pid": 26,
+      "source": "ВАСИЛИЙ",
+      "display": "ВАСИЛИЙ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 390,
+      "source": "Следовать за\nПредседателем Мао",
+      "display": "Следовать за\nПредседателем Мао",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 391,
+      "source": "Любить председателя Мао",
+      "display": "Любить председателя Мао",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 392,
+      "source": "Расстрел помещика",
+      "display": "Расстрел помещика",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 393,
+      "source": "мы - наследники\nкоммунизма",
+      "display": "мы - наследники\nкоммунизма",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 394,
+      "source": "соловьи",
+      "display": "соловьи",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 395,
+      "source": "Песочница",
+      "display": "Песочница",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 396,
+      "source": "Либерализация",
+      "display": "Либерализация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 397,
+      "source": "Люди во всем мире\nлюбят председателя мао",
+      "display": "Люди во всем мире\nлюбят председателя мао",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 398,
+      "source": "Вечер на рейде",
+      "display": "Вечер на рейде",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 399,
+      "source": "Песня нефтяников",
+      "display": "Песня нефтяников",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 400,
+      "source": "Великий Кормчий",
+      "display": "Великий Кормчий",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 401,
+      "source": "Достижения: V",
+      "display": "Достижения: V",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 402,
+      "source": "Церемония",
+      "display": "Церемония",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 403,
+      "source": "о Мао ЦзэДуне",
+      "display": "о Мао ЦзэДуне",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 404,
+      "source": "Тяньаньмэнь",
+      "display": "Тяньаньмэнь",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 405,
+      "source": "Кантата о сталине",
+      "display": "Кантата о сталине",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 406,
+      "source": "Гимн КНР",
+      "display": "Гимн КНР",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 408,
+      "source": "огонёк",
+      "display": "огонёк",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 409,
+      "source": "Алеет восток",
+      "display": "Алеет восток",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 410,
+      "source": "АВТОСОХРАНЕНИЕ",
+      "display": "АВТОСОХРАНЕНИЕ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 411,
+      "source": "повседневность",
+      "display": "повседневность",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 412,
+      "source": "место для автосохранения",
+      "display": "место для автосохранения",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 413,
+      "source": "Река Люян",
+      "display": "Река Люян",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 414,
+      "source": "Преданные Председателю\nМао ЦЗЭДУНУ",
+      "display": "Преданные Председателю\nМао ЦЗЭДУНУ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 415,
+      "source": "Я солдат",
+      "display": "Я солдат",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 416,
+      "source": "Автоматизация",
+      "display": "Автоматизация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 417,
+      "source": "с достижениями",
+      "display": "с достижениями",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 418,
+      "source": "Приближение войны",
+      "display": "Приближение войны",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 419,
+      "source": "Разрядка",
+      "display": "Разрядка",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 420,
+      "source": "Нет",
+      "display": "Нет",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 421,
+      "source": "Марш женщин\nкрасной армии",
+      "display": "Марш женщин\nкрасной армии",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 422,
+      "source": "Смерть Кормчего",
+      "display": "Смерть Кормчего",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 423,
+      "source": "Ежемес.",
+      "display": "Ежемес.",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 424,
+      "source": "Русский",
+      "display": "俄语",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level5",
+      "pid": 425,
+      "source": "модернизация",
+      "display": "модернизация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 426,
+      "source": "Гимн КПК",
+      "display": "Гимн КПК",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 427,
+      "source": "О Великом Походе",
+      "display": "О Великом Походе",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 428,
+      "source": "Марш НОАК",
+      "display": "Марш НОАК",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 429,
+      "source": "Революционеры всегда\nмолоды",
+      "display": "Революционеры всегда\nмолоды",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 430,
+      "source": "мысль мао\nсияет вечно",
+      "display": "мысль мао\nсияет вечно",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 431,
+      "source": "Мы рабочие сильные",
+      "display": "Мы рабочие сильные",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 432,
+      "source": "Песнь КСМК",
+      "display": "Песнь КСМК",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 433,
+      "source": "Без КПК нет Китая",
+      "display": "Без КПК нет Китая",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 434,
+      "source": "всегда петь о\nпредседателе мао",
+      "display": "всегда петь о\nпредседателе мао",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 435,
+      "source": "Перемены",
+      "display": "Перемены",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 436,
+      "source": "Движение морей зависит \nот кормчего",
+      "display": "Движение морей зависит \nот кормчего",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 437,
+      "source": "Песнь партизан",
+      "display": "Песнь партизан",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 438,
+      "source": "Автосохранение",
+      "display": "Автосохранение",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 439,
+      "source": "СЛОЖНОСТЬ",
+      "display": "СЛОЖНОСТЬ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level5",
+      "pid": 440,
+      "source": "Движение",
+      "display": "Движение",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1203,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1206,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1207,
+      "source": "федеративный кипр",
+      "display": "федеративный кипр",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1210,
+      "source": "Сохранить",
+      "display": "Сохранить",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1211,
+      "source": "Выход",
+      "display": "Выход",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1213,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1214,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1215,
+      "source": "Тест",
+      "display": "Тест",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1216,
+      "source": "военная",
+      "display": "военная",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1217,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1218,
+      "source": "Debug",
+      "display": "调试",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level6",
+      "pid": 1222,
+      "source": "экономическая",
+      "display": "экономическая",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1223,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1224,
+      "source": "Это время для нашего будущего",
+      "display": "Это время для нашего будущего",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1225,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1226,
+      "source": "Продолжить",
+      "display": "Продолжить",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1229,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1230,
+      "source": "Конец",
+      "display": "Конец",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1231,
+      "source": "Закончить",
+      "display": "Закончить",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1233,
+      "source": "Debug",
+      "display": "调试",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level6",
+      "pid": 1237,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1238,
+      "source": "The Third invasion into Japan",
+      "display": "第三次对日入侵",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level6",
+      "pid": 1239,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1240,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1241,
+      "source": "загрузить",
+      "display": "загрузить",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1243,
+      "source": "Debug",
+      "display": "调试",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level6",
+      "pid": 1245,
+      "source": "ДОКТРИНЫ",
+      "display": "ДОКТРИНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1246,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1248,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1250,
+      "source": "граждане",
+      "display": "граждане",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1251,
+      "source": "Экономика",
+      "display": "Экономика",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1252,
+      "source": "Настройки",
+      "display": "Настройки",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1253,
+      "source": "ВОЙНЫ",
+      "display": "ВОЙНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1255,
+      "source": "ПОЛИТИКИ",
+      "display": "ПОЛИТИКИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1256,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1257,
+      "source": "ААААААААААААААААААААААААААААААААААААААААААААААААFFFFDFFFFFFFFFFFFFFFFFFF",
+      "display": "ААААААААААААААААААААААААААААААААААААААААААААААААFFFFDFFFFFFFFFFFFFFFFFFF",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1259,
+      "source": "правление",
+      "display": "правление",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1261,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1262,
+      "source": "ВЛИЯНИЕ",
+      "display": "ВЛИЯНИЕ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1263,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1264,
+      "source": "China:\n Mao's legacy",
+      "display": "中国:\n 毛泽东的遗产",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level6",
+      "pid": 1265,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1266,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1267,
+      "source": "Обзор",
+      "display": "Обзор",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1269,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1270,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1271,
+      "source": "Наука",
+      "display": "Наука",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level6",
+      "pid": 1273,
+      "source": "Координация",
+      "display": "Координация",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level7",
+      "pid": 206,
+      "source": "Ситуации",
+      "display": "Ситуации",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level7",
+      "pid": 213,
+      "source": "ДОКТРИНЫ",
+      "display": "ДОКТРИНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level7",
+      "pid": 216,
+      "source": "ВЛИЯНИЕ",
+      "display": "ВЛИЯНИЕ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level7",
+      "pid": 217,
+      "source": "ВОЙНЫ",
+      "display": "ВОЙНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level7",
+      "pid": 219,
+      "source": "Экономика",
+      "display": "Экономика",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level7",
+      "pid": 220,
+      "source": "ПОЛИТИКИ",
+      "display": "ПОЛИТИКИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level7",
+      "pid": 221,
+      "source": "Территории",
+      "display": "Территории",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level7",
+      "pid": 224,
+      "source": "ЕДИНСТВО",
+      "display": "ЕДИНСТВО",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level7",
+      "pid": 227,
+      "source": "Торговля",
+      "display": "Торговля",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level7",
+      "pid": 229,
+      "source": "КАРТА МИРА",
+      "display": "КАРТА МИРА",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level7",
+      "pid": 231,
+      "source": "СОЮЗНИКИ",
+      "display": "СОЮЗНИКИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level7",
+      "pid": 232,
+      "source": "Наука",
+      "display": "Наука",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level8",
+      "pid": 625,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level8",
+      "pid": 631,
+      "source": "Окончательное восстановление от Большого скачка ",
+      "display": "Окончательное восстановление от Большого скачка ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level8",
+      "pid": 632,
+      "source": "ВОЙНЫ",
+      "display": "ВОЙНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level8",
+      "pid": 636,
+      "source": "2 нед: +0,2 деньги, +0,2 ур. жизни, разово: импорт -3",
+      "display": "2 нед: +0,2 деньги, +0,2 ур. жизни, разово: импорт -3",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level8",
+      "pid": 639,
+      "source": "ДОКТРИНЫ",
+      "display": "ДОКТРИНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level8",
+      "pid": 646,
+      "source": "карта мира",
+      "display": "карта мира",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level8",
+      "pid": 648,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level8",
+      "pid": 650,
+      "source": "ПОЛИТИКИ",
+      "display": "ПОЛИТИКИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level8",
+      "pid": 655,
+      "source": "Очки науки",
+      "display": "Очки науки",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level8",
+      "pid": 656,
+      "source": "Обзор",
+      "display": "Обзор",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level8",
+      "pid": 658,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level8",
+      "pid": 659,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level8",
+      "pid": 661,
+      "source": "Экономика",
+      "display": "Экономика",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level8",
+      "pid": 662,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level9",
+      "pid": 523,
+      "source": "МГБ",
+      "display": "МГБ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 524,
+      "source": "Наука",
+      "display": "Наука",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 525,
+      "source": "ДОКТРИНЫ",
+      "display": "ДОКТРИНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 532,
+      "source": "Обзор",
+      "display": "Обзор",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 533,
+      "source": "Пропаганда",
+      "display": "Пропаганда",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 536,
+      "source": "ВОЙНЫ",
+      "display": "ВОЙНЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 538,
+      "source": "Промышленность",
+      "display": "Промышленность",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 540,
+      "source": "Золотой \nрезерв",
+      "display": "Золотой \nрезерв",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 541,
+      "source": "Потери от коррупции\nБюджет: -хуёвый\nУровень жизни: -хуёвый\nстабильность альянса: -хуевый",
+      "display": "Потери от коррупции\nБюджет: -хуёвый\nУровень жизни: -хуёвый\nстабильность альянса: -хуевый",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 543,
+      "source": "Социальное\nобеспечение",
+      "display": "Социальное\nобеспечение",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 547,
+      "source": "Услуги",
+      "display": "Услуги",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 555,
+      "source": "Дипмиссии",
+      "display": "Дипмиссии",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 557,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level9",
+      "pid": 558,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level9",
+      "pid": 559,
+      "source": "Конвертики\nпартработникам",
+      "display": "Конвертики\nпартработникам",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 564,
+      "source": "Интерпомощь",
+      "display": "Интерпомощь",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 569,
+      "source": "Сельхоз",
+      "display": "Сельхоз",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 574,
+      "source": "Производство",
+      "display": "Производство",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 575,
+      "source": "Госаппарат",
+      "display": "Госаппарат",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 580,
+      "source": "Коррупция",
+      "display": "Коррупция",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 581,
+      "source": "Наука",
+      "display": "Наука",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 584,
+      "source": "КАРТА МИРА",
+      "display": "КАРТА МИРА",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 585,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level9",
+      "pid": 588,
+      "source": "ПОЛИТИКИ",
+      "display": "ПОЛИТИКИ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 589,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level9",
+      "pid": 592,
+      "source": "Максимальный вклад:\n0.0",
+      "display": "Максимальный вклад:\n0.0",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 597,
+      "source": "Армия",
+      "display": "Армия",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 598,
+      "source": "Госдолг\nХуёвый совсем",
+      "display": "Госдолг\nХуёвый совсем",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 599,
+      "source": "Сельхоз",
+      "display": "Сельхоз",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 600,
+      "source": "Услуги",
+      "display": "Услуги",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 603,
+      "source": "Потери от коррупции\nБюджет: -хуёвый\nУровень жизни: -хуёвый",
+      "display": "Потери от коррупции\nБюджет: -хуёвый\nУровень жизни: -хуёвый",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 606,
+      "source": "Player #1",
+      "display": "玩家 1",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "level9",
+      "pid": 609,
+      "source": "Максимальный долг\nХуёвый совсем",
+      "display": "Максимальный долг\nХуёвый совсем",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "level9",
+      "pid": 610,
+      "source": "Олигархия средней силы",
+      "display": "Олигархия средней силы",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets14.assets",
+      "pid": 109,
+      "source": "MPC\nCPC\nCPC",
+      "display": "中国毛主义共产党\n中国共产党\n中国共产党",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "sharedassets15.assets",
+      "pid": 111,
+      "source": "Националисты",
+      "display": "Националисты",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets15.assets",
+      "pid": 112,
+      "source": "Партизаны",
+      "display": "Партизаны",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets15.assets",
+      "pid": 113,
+      "source": "Кампучийско-вьетнамский конфликт",
+      "display": "Кампучийско-вьетнамский конфликт",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets15.assets",
+      "pid": 115,
+      "source": "ДИПЛ",
+      "display": "ДИПЛ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets15.assets",
+      "pid": 116,
+      "source": "ГУМАН",
+      "display": "ГУМАН",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets15.assets",
+      "pid": 117,
+      "source": "ОРУЖИЕ",
+      "display": "ОРУЖИЕ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets15.assets",
+      "pid": 118,
+      "source": "СПЕЦЫ",
+      "display": "СПЕЦЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets15.assets",
+      "pid": 119,
+      "source": "СПЕЦЫ",
+      "display": "СПЕЦЫ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets15.assets",
+      "pid": 120,
+      "source": "ДИПЛ",
+      "display": "ДИПЛ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets15.assets",
+      "pid": 121,
+      "source": "ОРУЖИЕ",
+      "display": "ОРУЖИЕ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets15.assets",
+      "pid": 122,
+      "source": "ГУМАН",
+      "display": "ГУМАН",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets18.assets",
+      "pid": 23,
+      "source": "Dissatisfaction of NATO +0.2; Approval from the USSR -0.2;",
+      "display": "北约不满度+0.2；苏联认可度-0.2；",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "sharedassets18.assets",
+      "pid": 24,
+      "source": "Стремление к правым реформам",
+      "display": "Стремление к правым реформам",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets19.assets",
+      "pid": 24,
+      "source": "НАзВАНИЕ ХУЁВОЕ",
+      "display": "НАзВАНИЕ ХУЁВОЕ",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets3.assets",
+      "pid": 109,
+      "source": "people's unrest\nleninism, capitalism\nmaoism, degrodism",
+      "display": "民众动荡\n列宁主义, capitalism\nmaoism, degrodism",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets3.assets",
+      "pid": 110,
+      "source": "Dissatisfaction of NATO +0.2; Approval from the USSR -0.2;",
+      "display": "北约不满度+0.2；苏联认可度-0.2；",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    },
+    {
+      "file": "sharedassets3.assets",
+      "pid": 111,
+      "source": "Нужен отрицательный бюджет",
+      "display": "Нужен отрицательный бюджет",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets3.assets",
+      "pid": 112,
+      "source": "Name\nUslovia\nText\nResults\nd\nd\nd\n",
+      "display": "Name\nUslovia\nText\nResults\nd\nd\nd\n",
+      "changed": false,
+      "contains_cjk": false,
+      "foreign": true
+    },
+    {
+      "file": "sharedassets9.assets",
+      "pid": 39,
+      "source": "people's unrest",
+      "display": "民众动荡",
+      "changed": true,
+      "contains_cjk": true,
+      "foreign": false
+    }
+  ]
+}

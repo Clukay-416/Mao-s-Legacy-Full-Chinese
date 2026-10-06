@@ -45,7 +45,7 @@ namespace MaoChinese {
     for(int i=0;i<4;i++)Card(second[i],secondTraits[i],573+303*i,467,225,146);
     for(int i=0;i<5;i++)Card(third[i],thirdTraits[i],443+303*i,680,225,145);
     for(int i=0;i<6;i++)Card(fourth[i],fourthTraits[i],420+247*i,898,220,145);
-    if(n==20||n==21){Label("总理\n军委主席\n外交部长",664,118,157,116);Label("毛泽东（83岁）",11,22,359,31);Label("左派激进",11,68,359,31);Label("坚定",11,115,359,31);Label("病弱",11,162,359,31);Label("职务：军委主席\n国家主席\n未被调查　未被监视\n影响力很高",15,210,352,121);
+    if(n==20||n==21){Label("总理\n军委主席\n外交部长",664,118,157,116);Label("毛泽东（83岁）",11,22,359,31);Label("左派激进",11,68,359,31);Label("坚定",11,115,359,31);Label("病弱",11,162,359,31);Label("<color=red>职务：</color>军委主席\n<color=green>主席：</color>\n未被调查\n未被监视\n<color=red>影响力很高</color>",10,210,364,135);
      string[] buttons={"尝试暗杀","派往南方","派往西方","派往首都","派往北方","任命外交部长","派往东方","任命总理","任命军委主席","支持","打压","展开调查","监视"};int[] bx={129,26,228,26,228,26,228,26,228,26,228,26,228};int[] by={483,560,560,642,642,723,723,803,803,885,885,965,965};for(int i=0;i<buttons.Length;i++)Label(buttons[i],bx[i],by[i],143,38);
     }
    }else if(n==22){
@@ -58,11 +58,17 @@ namespace MaoChinese {
   }
   static void Bar(string[] names,float x,float y,float width,float height){for(int i=0;i<names.Length;i++)Label(names[i],x+i*width,y,width-15,height);}
   static void War(string name,int row,int top){float y=top+row*175;Label(name,668,y,821,44);string[] labels={"人道","外交","顾问","武器"};for(int j=0;j<4;j++){int col=j%2,r=j/2;Label(labels[j],387+col*121,y+8+r*59,93,39);Label(labels[j],1550+col*121,y+8+r*59,93,39);}Label(row==0?"柬埔寨":"共产党",826,y+65,239,38);Label(row==0?"越南":"保皇派",1089,y+65,237,38);}
-  static void Card(string name,string traits,float x,float y,float w,float h){w=238;Label(name,x,y,w,38);Label(traits,x+w*.50f,y+45,w*.50f,h-48);}
+  static void Card(string name,string traits,float x,float y,float w,float h){
+   Label(name,x,y,w,38);string[] rows=traits.Replace("　","\n").Split('\n');float rowHeight=(h-44)/3;
+   for(int i=0;i<rows.Length;i++)Label(rows[i],x+w*.50f,y+46+i*rowHeight,w*.50f+10,rowHeight-3);
+  }
   static void Label(string caption,float x,float y,float w,float h){
+   caption=caption.Replace("左派激进分子","极左派").Replace("左派激进","极左派").Replace("中华派","亲华").Replace("亲西方派","亲西方").Replace("科技点数","科研点数").Replace("善谋","谋略家").Replace("残酷","强硬");
    Vector2 size=source.sprite.bounds.size;float sx=size.x/1920,sy=size.y/1080;
    var go=new GameObject("Label");go.transform.SetParent(root,false);go.transform.localPosition=new Vector3((x+w/2-960)*sx,(540-y-h/2)*sy,-.02f);var bg=go.AddComponent<SpriteRenderer>();bg.sprite=paper;bg.color=background;bg.sortingLayerID=source.sortingLayerID;bg.sortingOrder=source.sortingOrder;go.transform.localScale=new Vector3(w*sx,h*sy,1);
    var t=new GameObject("Chinese");t.transform.SetParent(go.transform,false);t.transform.localPosition=new Vector3(0,0,-.01f);t.transform.localScale=new Vector3(1/(w*sx),1/(h*sy),1);var mesh=t.AddComponent<TextMesh>();mesh.font=Display.ChineseFont;mesh.fontSize=32;mesh.characterSize=.11f;mesh.anchor=TextAnchor.MiddleCenter;mesh.alignment=TextAlignment.Center;mesh.color=ink;mesh.text=caption;var mr=t.GetComponent<MeshRenderer>();mr.sharedMaterial=mesh.font.material;mr.sortingLayerID=source.sortingLayerID;mr.sortingOrder=source.sortingOrder;Layout.Apply(mesh,caption);
   }
  }
 }
+
+

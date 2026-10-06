@@ -1,0 +1,1562 @@
+[
+  {
+    "en": "Left radicals",
+    "recommended": "极左派",
+    "current": [
+      "左派激进分子",
+      "左翼激进派"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S2",
+    "note": "指游戏派系；人物、派系菜单与条件统一，区别于意识形态亚型Left Radicalism。",
+    "mapping_keys": [
+      "Left radicals"
+    ],
+    "resource": [
+      [
+        "Part7_en",
+        1,
+        "左派激进分子"
+      ],
+      [
+        "Part1_en",
+        1,
+        "左派激进分子"
+      ],
+      [
+        "new_texts_en",
+        325,
+        "左翼激进派"
+      ]
+    ]
+  },
+  {
+    "en": "Conservatives",
+    "recommended": "保守派",
+    "current": [
+      "保守派"
+    ],
+    "status": "已一致",
+    "sources": "S1,S2",
+    "note": "派系名称。",
+    "mapping_keys": [
+      "Conservatives"
+    ],
+    "resource": [
+      [
+        "Part7_en",
+        1,
+        "保守派"
+      ],
+      [
+        "Part1_en",
+        1,
+        "保守派"
+      ],
+      [
+        "new_texts_en",
+        326,
+        "保守派"
+      ]
+    ]
+  },
+  {
+    "en": "Moderate",
+    "recommended": "温和派",
+    "current": [
+      "温和派"
+    ],
+    "status": "已一致",
+    "sources": "S1,S2",
+    "note": "派系名称，人物Soft特质另译温和。",
+    "mapping_keys": [
+      "MODERATE",
+      "Moderate"
+    ],
+    "resource": [
+      [
+        "Part7_en",
+        1,
+        "温和派"
+      ],
+      [
+        "Traits21_en",
+        2,
+        "温和派"
+      ],
+      [
+        "Traits7_en",
+        2,
+        "温和派"
+      ],
+      [
+        "Part1_en",
+        1,
+        "温和派"
+      ],
+      [
+        "new_texts_en",
+        327,
+        "温和派"
+      ],
+      [
+        "Traits1_en",
+        2,
+        "温和派"
+      ]
+    ]
+  },
+  {
+    "en": "Reformers",
+    "recommended": "改革派",
+    "current": [
+      "改革派",
+      "改革者"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S2",
+    "note": "派系名称，区别于改良主义政体。",
+    "mapping_keys": [
+      "Reformers"
+    ],
+    "resource": [
+      [
+        "Part7_en",
+        1,
+        "改革派"
+      ],
+      [
+        "Part1_en",
+        1,
+        "改革派"
+      ],
+      [
+        "new_texts_en",
+        194,
+        "改革派"
+      ],
+      [
+        "new_texts_en",
+        328,
+        "改革者"
+      ]
+    ]
+  },
+  {
+    "en": "Liberals",
+    "recommended": "自由派",
+    "current": [
+      "自由派"
+    ],
+    "status": "已一致",
+    "sources": "S1,S2",
+    "note": "派系名称。",
+    "mapping_keys": [
+      "Liberals",
+      "liberals"
+    ],
+    "resource": [
+      [
+        "Part7_en",
+        1,
+        "自由派"
+      ],
+      [
+        "Part1_en",
+        1,
+        "自由派"
+      ],
+      [
+        "new_texts_en",
+        195,
+        "自由派"
+      ],
+      [
+        "new_texts_en",
+        329,
+        "自由派"
+      ],
+      [
+        "other_text_en",
+        227,
+        "自由派"
+      ]
+    ]
+  },
+  {
+    "en": "Agent networks",
+    "recommended": "特勤点数",
+    "current": [
+      " 特工网络",
+      "特工网络"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S2,S3,S4",
+    "note": "顶栏和消耗条件为可出现小数的资源；不要写成几名特工。涉及组织本身的叙事可用特工网络。",
+    "mapping_keys": [
+      " agent networks",
+      "AGENT NETWORKS",
+      "Agent networks"
+    ],
+    "resource": [
+      [
+        "new_texts_en",
+        150,
+        "特工网络"
+      ]
+    ]
+  },
+  {
+    "en": "Agents",
+    "recommended": "特勤点数",
+    "current": [
+      "特工"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S2,S3,S4",
+    "note": "数值资源同上；人物或执行者才译特工。",
+    "mapping_keys": [
+      "Agents"
+    ],
+    "resource": [
+      [
+        "other_text_en",
+        185,
+        "特工"
+      ],
+      [
+        "Events_text_en",
+        594,
+        "特工"
+      ]
+    ]
+  },
+  {
+    "en": "International reputation",
+    "recommended": "国际声望",
+    "current": [
+      "国际声望"
+    ],
+    "status": "已一致",
+    "sources": "S1,S4",
+    "note": "与Diplomatic reputation、Dipreputation是同一游戏指标，统一界面名称。",
+    "mapping_keys": [
+      "INTERNATIONAL REPUTATION",
+      "International reputation"
+    ],
+    "resource": []
+  },
+  {
+    "en": "Dipreputation",
+    "recommended": "国际声望",
+    "current": [
+      "声望受损"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S4,S5",
+    "note": "dip是diplomatic缩写；现译声望受损属于误读。",
+    "mapping_keys": [
+      "Dipreputation"
+    ],
+    "resource": [
+      [
+        "new_texts_en",
+        166,
+        "声望受损"
+      ]
+    ]
+  },
+  {
+    "en": "Liberalisation of minds",
+    "recommended": "思想自由化",
+    "current": [
+      "思想解放"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S2",
+    "note": "指标名称保留机制含义，避免写成带褒义的思想解放。",
+    "mapping_keys": [
+      "LIBERALISATION OF MINDS",
+      "Liberalisation of minds"
+    ],
+    "resource": []
+  },
+  {
+    "en": "Army power",
+    "recommended": "军事实力",
+    "current": [
+      "军事实力"
+    ],
+    "status": "已一致",
+    "sources": "S1,S3",
+    "note": "点数指标；不是若干支军队。",
+    "mapping_keys": [
+      "Army power"
+    ],
+    "resource": [
+      [
+        "new_texts_en",
+        156,
+        "军事实力"
+      ]
+    ]
+  },
+  {
+    "en": "Science points",
+    "recommended": "科研点数",
+    "current": [
+      "科技点"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S3,S4",
+    "note": "界面简称科研点；Science菜单译科技。",
+    "mapping_keys": [
+      "Science points"
+    ],
+    "resource": []
+  },
+  {
+    "en": "Intervention",
+    "recommended": "干预点数",
+    "current": [],
+    "status": "无独立条目，需按组合文本/语境检查",
+    "sources": "S1,S4",
+    "note": "用于战争援助的资源名称；行动描述用干预或干涉，不无条件全局替换。",
+    "mapping_keys": [],
+    "resource": []
+  },
+  {
+    "en": "Support of the party",
+    "recommended": "党内支持度",
+    "current": [
+      "党内支持"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S2,S4",
+    "note": "指标与条件统一。",
+    "mapping_keys": [
+      "SUPPORT OF THE PARTY",
+      "Support of the party"
+    ],
+    "resource": []
+  },
+  {
+    "en": "Support of the people",
+    "recommended": "民众支持度",
+    "current": [
+      "民众支持"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S2,S4",
+    "note": "攻略也称群众支持、人民支持；以民众支持度统一数值标签。",
+    "mapping_keys": [
+      "SUPPORT OF THE PEOPLE",
+      "Support of the people"
+    ],
+    "resource": []
+  },
+  {
+    "en": "Standard of living",
+    "recommended": "生活水平",
+    "current": [],
+    "status": "无独立条目，需按组合文本/语境检查",
+    "sources": "S1,S3,S4",
+    "note": "指标名；不要混写民生、生活指数、生活质量。",
+    "mapping_keys": [],
+    "resource": []
+  },
+  {
+    "en": "Unity",
+    "recommended": "国家统一度",
+    "current": [
+      "统一"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1",
+    "note": "内政分裂指标；外交联盟稳定度是不同变量。",
+    "mapping_keys": [
+      "UNITY",
+      "Unity"
+    ],
+    "resource": []
+  },
+  {
+    "en": "Budget",
+    "recommended": "预算",
+    "current": [
+      "预算"
+    ],
+    "status": "已一致",
+    "sources": "S3,S4",
+    "note": "保留原作数值及单位；要求不低于、不高于等比较符必须保留。",
+    "mapping_keys": [
+      "BUDGET",
+      "Budget"
+    ],
+    "resource": [
+      [
+        "new_texts_en",
+        151,
+        "预算"
+      ],
+      [
+        "Events_text_en",
+        593,
+        "预算"
+      ]
+    ]
+  },
+  {
+    "en": "Reserve",
+    "recommended": "黄金储备",
+    "current": [],
+    "status": "无独立条目，需按组合文本/语境检查",
+    "sources": "S4",
+    "note": "经济页面储备项目，影响栏标题必须保留。",
+    "mapping_keys": [],
+    "resource": []
+  },
+  {
+    "en": "State mechanism",
+    "recommended": "国家机关",
+    "current": [
+      "国家机关",
+      "国家机器"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S3,S4",
+    "note": "投资项目；行政体制是其他政策项。",
+    "mapping_keys": [
+      "STATE MECHANISM",
+      "State mechanism"
+    ],
+    "resource": []
+  },
+  {
+    "en": "MSS",
+    "recommended": "国家安全部",
+    "current": [
+      "国家安全部"
+    ],
+    "status": "已一致",
+    "sources": "S3,S4",
+    "note": "投资项目可简称国安经费，提示用全称。",
+    "mapping_keys": [
+      "MSS"
+    ],
+    "resource": []
+  },
+  {
+    "en": "Envelops for party members",
+    "recommended": "党员津贴",
+    "current": [
+      "党员|补助",
+      "党员补助"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S4",
+    "note": "攻略俗称党员红包；项目名用党员津贴，保留文字与信封图标。",
+    "mapping_keys": [
+      "ENVELOPS FOR PARTY MEMBERS",
+      "Envelops for|party members"
+    ],
+    "resource": []
+  },
+  {
+    "en": "Propaganda",
+    "recommended": "宣传",
+    "current": [
+      "宣传",
+      "宣传活动"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S4",
+    "note": "投资项目。",
+    "mapping_keys": [
+      "PROPAGANDA",
+      "Propaganda"
+    ],
+    "resource": []
+  },
+  {
+    "en": "Welfare",
+    "recommended": "社会福利",
+    "current": [
+      "福利"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S3,S4",
+    "note": "投资项目。",
+    "mapping_keys": [
+      "WELFARE",
+      "Welfare"
+    ],
+    "resource": []
+  },
+  {
+    "en": "Diplomatic missions",
+    "recommended": "外交使团",
+    "current": [],
+    "status": "无独立条目，需按组合文本/语境检查",
+    "sources": "S1,S4",
+    "note": "投资项目；勿与国际援助/干预点数混为一项。",
+    "mapping_keys": [],
+    "resource": []
+  },
+  {
+    "en": "CMEA",
+    "recommended": "经互会",
+    "current": [
+      "经济互助委员会"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S2",
+    "note": "首次说明全称经济互助委员会，紧凑按钮使用经互会。",
+    "mapping_keys": [
+      "CMEA"
+    ],
+    "resource": [
+      [
+        "new_texts_en",
+        52,
+        "经济互助委员会"
+      ]
+    ]
+  },
+  {
+    "en": "WTO",
+    "recommended": "华约",
+    "current": [],
+    "status": "无独立条目，需按组合文本/语境检查",
+    "sources": "S1,S2,S5",
+    "note": "本作冷战联盟语境指Warsaw Treaty Organization；不能译世界贸易组织。需按上下文判断。",
+    "mapping_keys": [],
+    "resource": []
+  },
+  {
+    "en": "Bird's cage",
+    "recommended": "鸟笼经济",
+    "current": [
+      "鸟笼\n经济",
+      "鸟笼经济"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S2,S4",
+    "note": "政策选项，保留鸟笼经济的通用表达。",
+    "mapping_keys": [
+      "Bird's\ncage"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "鸟笼经济"
+      ]
+    ]
+  },
+  {
+    "en": "State monopoly capitalism",
+    "recommended": "国家垄断资本主义",
+    "current": [
+      "国家垄断\n资本主义",
+      "国家垄断|资本主义"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S4",
+    "note": "政策全称，不为省空间删去垄断。",
+    "mapping_keys": [
+      "State monopoly\ncapitalism"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "国家垄断|资本主义"
+      ]
+    ]
+  },
+  {
+    "en": "Soviet-type state planned",
+    "recommended": "苏联式计划经济",
+    "current": [
+      "苏式\n计划经济",
+      "苏联式|计划经济"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S5",
+    "note": "政策选项。",
+    "mapping_keys": [
+      "Soviet-type\nstate planned"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "苏联式|计划经济"
+      ]
+    ]
+  },
+  {
+    "en": "Automated plan",
+    "recommended": "自动化计划经济",
+    "current": [
+      "自动化计划经济"
+    ],
+    "status": "已一致",
+    "sources": "S1,S2,S4",
+    "note": "政策选项。",
+    "mapping_keys": [
+      "Automated plan"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "自动化计划经济"
+      ]
+    ]
+  },
+  {
+    "en": "Mixed economy",
+    "recommended": "混合经济",
+    "current": [
+      "混合\n经济",
+      "混合经济"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S4,S5",
+    "note": "经济体制，不能仅因部分攻略写混合所有制就扩写原义。",
+    "mapping_keys": [
+      "Mixed economy",
+      "Mixed\neconomy"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "混合经济"
+      ]
+    ]
+  },
+  {
+    "en": "Minimum regulation",
+    "recommended": "最低限度监管",
+    "current": [
+      "最低限度\n管制",
+      "最低限度|监管"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S5",
+    "note": "经济政策选项。",
+    "mapping_keys": [
+      "Minimum\nregulation"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "最低限度|监管"
+      ]
+    ]
+  },
+  {
+    "en": "One-party republic",
+    "recommended": "一党制共和国",
+    "current": [
+      "一党制|共和国"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S5",
+    "note": "与New Democracy、limited multiparty严格区别，不擅改为史实政体。",
+    "mapping_keys": [],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "一党制|共和国"
+      ]
+    ]
+  },
+  {
+    "en": "New Democracy",
+    "recommended": "新民主主义",
+    "current": [
+      "新\n民主主义",
+      "新民主主义"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S5",
+    "note": "原作政策名称保留，不能为了吻合玩家路线讲解改成不同条目。",
+    "mapping_keys": [
+      "New\nDemocracy"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "新民主主义"
+      ]
+    ]
+  },
+  {
+    "en": "Limited multiparty system",
+    "recommended": "有限多党制",
+    "current": [
+      "有限|多党制"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S5",
+    "note": "政党政策选项。",
+    "mapping_keys": [],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "有限|多党制"
+      ]
+    ]
+  },
+  {
+    "en": "Multiparty democracy",
+    "recommended": "多党民主制",
+    "current": [
+      "多党\n民主",
+      "多党民主"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S5",
+    "note": "政党政策选项。",
+    "mapping_keys": [
+      "Multiparty\ndemocracy"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "多党民主"
+      ]
+    ]
+  },
+  {
+    "en": "Fighting dissent",
+    "recommended": "镇压异议",
+    "current": [
+      "打击\n异见",
+      "镇压异议"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S5",
+    "note": "公民权利政策。",
+    "mapping_keys": [
+      "Fighting\ndissent"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "镇压异议"
+      ]
+    ]
+  },
+  {
+    "en": "Small control",
+    "recommended": "轻度管控",
+    "current": [
+      "低度管控"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S5",
+    "note": "公民权利政策。",
+    "mapping_keys": [
+      "Small control"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "低度管控"
+      ]
+    ]
+  },
+  {
+    "en": "Full liberalization",
+    "recommended": "全面自由化",
+    "current": [
+      "完全\n自由化",
+      "完全|自由化"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S5",
+    "note": "政策等级，不能与思想自由化点数合并。",
+    "mapping_keys": [
+      "Full\nliberalization"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "完全|自由化"
+      ]
+    ]
+  },
+  {
+    "en": "Unitarism",
+    "recommended": "单一制",
+    "current": [
+      "单一制"
+    ],
+    "status": "已一致",
+    "sources": "S5",
+    "note": "国家结构。",
+    "mapping_keys": [
+      "Unitarism"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "单一制"
+      ]
+    ]
+  },
+  {
+    "en": "Federation",
+    "recommended": "联邦制",
+    "current": [
+      "联邦制"
+    ],
+    "status": "已一致",
+    "sources": "S5",
+    "note": "国家结构。",
+    "mapping_keys": [
+      "Federation"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "联邦制"
+      ]
+    ]
+  },
+  {
+    "en": "Confederation",
+    "recommended": "邦联制",
+    "current": [
+      "邦联制"
+    ],
+    "status": "已一致",
+    "sources": "S5",
+    "note": "国家结构。",
+    "mapping_keys": [
+      "Confederation"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "邦联制"
+      ]
+    ]
+  },
+  {
+    "en": "Union of autonomies",
+    "recommended": "自治地区联合体",
+    "current": [
+      "自治体\n联盟",
+      "自治地区|联合体"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S5",
+    "note": "游戏虚构政策，不强行套用现实制度名称。",
+    "mapping_keys": [
+      "Union of\nautonomies"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "自治地区|联合体"
+      ]
+    ]
+  },
+  {
+    "en": "Fight against traditionalism",
+    "recommended": "反对传统主义",
+    "current": [
+      "反对\n传统主义",
+      "反对|传统主义"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S5",
+    "note": "政策选项。",
+    "mapping_keys": [
+      "Fight against\ntraditionalism"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "反对|传统主义"
+      ]
+    ]
+  },
+  {
+    "en": "Atheism support",
+    "recommended": "支持无神论",
+    "current": [
+      "支持无神论"
+    ],
+    "status": "已一致",
+    "sources": "S5",
+    "note": "政策选项。",
+    "mapping_keys": [],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "支持无神论"
+      ]
+    ]
+  },
+  {
+    "en": "Supervision of beliefs",
+    "recommended": "宗教管制",
+    "current": [
+      "宗教|监管",
+      "监管\n信仰"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S5",
+    "note": "政策选项。",
+    "mapping_keys": [
+      "Supervision of\nbeliefs"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "宗教|监管"
+      ]
+    ]
+  },
+  {
+    "en": "Secular state",
+    "recommended": "世俗国家",
+    "current": [
+      "世俗国家"
+    ],
+    "status": "已一致",
+    "sources": "S5",
+    "note": "政策选项。",
+    "mapping_keys": [
+      "Secular state"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "世俗国家"
+      ]
+    ]
+  },
+  {
+    "en": "Reliance on traditions",
+    "recommended": "依靠传统",
+    "current": [
+      "依靠\n传统",
+      "倚重|传统"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S5",
+    "note": "政策选项。",
+    "mapping_keys": [
+      "Reliance on\ntraditions"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "倚重|传统"
+      ]
+    ]
+  },
+  {
+    "en": "Concordat with religion",
+    "recommended": "与宗教团体达成协约",
+    "current": [
+      "与宗教团体|达成协约"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S5",
+    "note": "说明用全称，按钮允许换行。",
+    "mapping_keys": [],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "与宗教团体|达成协约"
+      ]
+    ]
+  },
+  {
+    "en": "Full militarization",
+    "recommended": "全面军事化",
+    "current": [
+      "全面\n军事化",
+      "完全|军事化"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S5",
+    "note": "军事政策。",
+    "mapping_keys": [
+      "Full\nmilitarization"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "完全|军事化"
+      ]
+    ]
+  },
+  {
+    "en": "Building up",
+    "recommended": "扩军备战",
+    "current": [
+      "扩军备战"
+    ],
+    "status": "已一致",
+    "sources": "S5",
+    "note": "军事政策；不同语境的建设不一律改。",
+    "mapping_keys": [
+      "Building up"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "扩军备战"
+      ]
+    ]
+  },
+  {
+    "en": "Defensive army",
+    "recommended": "防御型军队",
+    "current": [
+      "防御型\n军队",
+      "防御型军队"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S5",
+    "note": "军事政策。",
+    "mapping_keys": [
+      "Defensive\narmy"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "防御型军队"
+      ]
+    ]
+  },
+  {
+    "en": "Contract army",
+    "recommended": "职业军队",
+    "current": [
+      "合同制\n军队",
+      "职业军队"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S5",
+    "note": "军事政策说明可补充合同兵制；数值和历史事件不改。",
+    "mapping_keys": [
+      "Contract\narmy"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "职业军队"
+      ]
+    ]
+  },
+  {
+    "en": "Chinese Socialism",
+    "recommended": "中国特色社会主义",
+    "current": [
+      "中国特色的社会主义"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S5",
+    "note": "政体名称，去掉别扭的中国特色的社会主义。",
+    "mapping_keys": [],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "中国特色的社会主义"
+      ]
+    ]
+  },
+  {
+    "en": "Conservative socialism",
+    "recommended": "保守社会主义",
+    "current": [
+      "保守|社会主义",
+      "保守社会主义"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S5",
+    "note": "游戏政体名称。",
+    "mapping_keys": [
+      "Conservative Socialism"
+    ],
+    "resource": [
+      [
+        "other_text_en",
+        99,
+        "保守社会主义"
+      ],
+      [
+        "Doctr_en",
+        1,
+        "保守|社会主义"
+      ]
+    ]
+  },
+  {
+    "en": "Dengism",
+    "recommended": "邓小平主义",
+    "current": [
+      "邓小平主义"
+    ],
+    "status": "已一致",
+    "sources": "S1,S5",
+    "note": "游戏政体名称，不自动替换成现实政治理论名。",
+    "mapping_keys": [
+      "dengism"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "邓小平主义"
+      ]
+    ]
+  },
+  {
+    "en": "Social democracy",
+    "recommended": "社会民主主义",
+    "current": [
+      "社会民主主义"
+    ],
+    "status": "已一致",
+    "sources": "S1,S5",
+    "note": "与民主社会主义区别。",
+    "mapping_keys": [],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "社会民主主义"
+      ]
+    ]
+  },
+  {
+    "en": "Left radicalism",
+    "recommended": "激进左翼主义",
+    "current": [
+      "左翼激进主义"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S5",
+    "note": "意识形态亚型，区别于极左派派系。",
+    "mapping_keys": [
+      "Left radicalism"
+    ],
+    "resource": [
+      [
+        "other_text_en",
+        14,
+        "左翼激进主义"
+      ]
+    ]
+  },
+  {
+    "en": "Socialist",
+    "recommended": "社会主义路线",
+    "current": [
+      "社会主义路线"
+    ],
+    "status": "已一致",
+    "sources": "S5",
+    "note": "仅党路线语境使用此译名。",
+    "mapping_keys": [],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "社会主义路线"
+      ]
+    ]
+  },
+  {
+    "en": "Pragmatic",
+    "recommended": "务实路线",
+    "current": [
+      "务实路线"
+    ],
+    "status": "已一致",
+    "sources": "S5",
+    "note": "仅党路线语境。",
+    "mapping_keys": [
+      "Pragmatic"
+    ],
+    "resource": [
+      [
+        "Doctr_en",
+        1,
+        "务实路线"
+      ]
+    ]
+  },
+  {
+    "en": "Firm",
+    "recommended": "坚定",
+    "current": [
+      "坚定"
+    ],
+    "status": "已一致",
+    "sources": "S1",
+    "note": "人物特质。",
+    "mapping_keys": [
+      "Firm"
+    ],
+    "resource": [
+      [
+        "Traits21_en",
+        5,
+        "坚定"
+      ],
+      [
+        "Traits7_en",
+        5,
+        "坚定"
+      ],
+      [
+        "Traits1_en",
+        5,
+        "坚定"
+      ]
+    ]
+  },
+  {
+    "en": "Soft",
+    "recommended": "温和",
+    "current": [
+      "温和",
+      "温和的"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1",
+    "note": "人物特质，不加的字。",
+    "mapping_keys": [
+      "Soft"
+    ],
+    "resource": [
+      [
+        "Traits21_en",
+        7,
+        "温和"
+      ],
+      [
+        "Traits7_en",
+        7,
+        "温和"
+      ],
+      [
+        "Traits1_en",
+        7,
+        "温和"
+      ],
+      [
+        "Doctr_en",
+        1,
+        "温和的"
+      ]
+    ]
+  },
+  {
+    "en": "Thrifty",
+    "recommended": "节俭",
+    "current": [
+      "节俭"
+    ],
+    "status": "已一致",
+    "sources": "S1",
+    "note": "人物特质。",
+    "mapping_keys": [
+      "Thrifty"
+    ],
+    "resource": [
+      [
+        "Traits21_en",
+        12,
+        "节俭"
+      ],
+      [
+        "Traits7_en",
+        12,
+        "节俭"
+      ],
+      [
+        "Traits1_en",
+        12,
+        "节俭"
+      ]
+    ]
+  },
+  {
+    "en": "Scientist",
+    "recommended": "学者",
+    "current": [
+      "科学家"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1",
+    "note": "人物特质；真实职业或事件叙事中仍用科学家。",
+    "mapping_keys": [
+      "SCIENTIST",
+      "Scientist"
+    ],
+    "resource": [
+      [
+        "Traits21_en",
+        8,
+        "科学家"
+      ],
+      [
+        "Traits7_en",
+        8,
+        "科学家"
+      ],
+      [
+        "Traits1_en",
+        8,
+        "科学家"
+      ]
+    ]
+  },
+  {
+    "en": "Peculator",
+    "recommended": "贪腐",
+    "current": [
+      "贪腐"
+    ],
+    "status": "已一致",
+    "sources": "S1",
+    "note": "人物特质。",
+    "mapping_keys": [
+      "PECULATOR",
+      "Peculator"
+    ],
+    "resource": [
+      [
+        "Traits21_en",
+        19,
+        "贪腐"
+      ],
+      [
+        "Traits7_en",
+        19,
+        "贪腐"
+      ],
+      [
+        "Traits1_en",
+        19,
+        "贪腐"
+      ]
+    ]
+  },
+  {
+    "en": "Chinophilic",
+    "recommended": "亲华",
+    "current": [
+      "亲华"
+    ],
+    "status": "已一致",
+    "sources": "S1",
+    "note": "人物特质，攻略也称中华派。",
+    "mapping_keys": [
+      "CHINOPHILIC",
+      "Chinophilic"
+    ],
+    "resource": [
+      [
+        "Traits21_en",
+        15,
+        "亲华"
+      ],
+      [
+        "Traits7_en",
+        15,
+        "亲华"
+      ],
+      [
+        "Traits1_en",
+        15,
+        "亲华"
+      ]
+    ]
+  },
+  {
+    "en": "Westernizer",
+    "recommended": "亲西方",
+    "current": [
+      "亲西方派"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1",
+    "note": "人物特质，攻略也称西渐派。",
+    "mapping_keys": [
+      "Westernizer"
+    ],
+    "resource": []
+  },
+  {
+    "en": "Revolutionary Committee of The Kuomintang",
+    "recommended": "中国国民党革命委员会",
+    "current": [
+      "革命|委员会|中国国民党",
+      "革命|委员会|国民党"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1",
+    "note": "紧凑党名标签使用民革；不可翻成国民党的革命委员会。",
+    "mapping_keys": [],
+    "resource": [
+      [
+        "Part7_en",
+        1,
+        "革命|委员会|中国国民党"
+      ],
+      [
+        "Part1_en",
+        1,
+        "革命|委员会|国民党"
+      ]
+    ]
+  },
+  {
+    "en": "China Party for Public Interest",
+    "recommended": "中国致公党",
+    "current": [
+      "中国党为|公共利益"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1",
+    "note": "紧凑党名标签使用致公党；现有资源含中国党为公共利益的误译。",
+    "mapping_keys": [],
+    "resource": [
+      [
+        "Part7_en",
+        1,
+        "中国党为|公共利益"
+      ],
+      [
+        "Part1_en",
+        1,
+        "中国党为|公共利益"
+      ]
+    ]
+  },
+  {
+    "en": "Chinese Communist Party",
+    "recommended": "中国共产党",
+    "current": [
+      "中国|共产党"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1",
+    "note": "紧凑标签使用中共。",
+    "mapping_keys": [],
+    "resource": [
+      [
+        "Part7_en",
+        1,
+        "中国|共产党"
+      ],
+      [
+        "Part1_en",
+        1,
+        "中国|共产党"
+      ]
+    ]
+  },
+  {
+    "en": "Stronghold of Maoism",
+    "recommended": "毛主义的堡垒",
+    "current": [
+      "毛主义的堡垒"
+    ],
+    "status": "已一致",
+    "sources": "S1,S2",
+    "note": "事件修正与成就命名保持对应。",
+    "mapping_keys": [
+      "Stronghold of Maoism"
+    ],
+    "resource": [
+      [
+        "old_modify_text_en",
+        7,
+        "毛主义的堡垒"
+      ]
+    ]
+  },
+  {
+    "en": "Bombard the Headquarters",
+    "recommended": "炮打司令部",
+    "current": [],
+    "status": "无独立条目，需按组合文本/语境检查",
+    "sources": "S1",
+    "note": "DLC名称及事件标题保持通用表述。",
+    "mapping_keys": [],
+    "resource": []
+  },
+  {
+    "en": "OGAS",
+    "recommended": "全国自动化管理系统（OGAS）",
+    "current": [
+      "全国自动化管理系统"
+    ],
+    "status": "需修正或按语境统一",
+    "sources": "S1,S2",
+    "note": "首次说明全称，科技短标签保留OGAS，勿算成漏译。",
+    "mapping_keys": [
+      "OGAS"
+    ],
+    "resource": []
+  },
+  {
+    "en": "Family contracting",
+    "recommended": "家庭联产承包责任制",
+    "current": [
+      "家庭联产承包责任制"
+    ],
+    "status": "已一致",
+    "sources": "S4",
+    "note": "农业政策名称；紧凑标题可用家庭联产承包制。",
+    "mapping_keys": [
+      "Family contracting"
+    ],
+    "resource": [
+      [
+        "old_modify_text_en",
+        62,
+        "家庭联产承包责任制"
+      ]
+    ]
+  }
+]

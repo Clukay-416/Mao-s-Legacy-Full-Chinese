@@ -56,7 +56,8 @@ namespace MaoChinese {
     if(!found) {if(s[i]=='<') {int end=s.IndexOf('>',i);if(end>=i) {b.Append(s.Substring(i,end-i+1));i=end+1;continue;}} b.Append(s[i++]);}
    }
    v=b.ToString();v=Regex.Replace(v,@"(?<![A-Za-z0-9])[-+]?\d+\.\d{4,}",m=>{double number;return double.TryParse(m.Value,System.Globalization.NumberStyles.Float,System.Globalization.CultureInfo.InvariantCulture,out number)?(m.Value.StartsWith("+")?"+":"")+number.ToString("0.##",System.Globalization.CultureInfo.InvariantCulture):m.Value;});
-   if(v.StartsWith("储备影响：")||v.StartsWith("服务/工业/民生"))v=v.Replace("储备影响：\n","").Replace("服务/工业/民生：","服务/工业/民生 ").Replace("\n同盟稳定性","　稳定");
+   // Share a line for the two effects, retaining the heading and every value.
+   if(v.StartsWith("储备影响："))v=v.Replace("\n同盟稳定度","；同盟稳定度");
    if(cache.Count>6000)cache.Clear();cache[s]=v;return v;
   }
   public static bool HasChinese(string s) {if(s==null)return false;foreach(char c in s)if(c>=0x3400&&c<=0x9fff)return true;return false;}
@@ -87,7 +88,7 @@ namespace MaoChinese {
  }
  public class Layout : MonoBehaviour {
   static Dictionary<int,MeshState> states=new Dictionary<int,MeshState>();
-  class MeshState {public float size;public string last;public Bounds? box;public string source;}
+  class MeshState {public TextMesh mesh;public float size;public string last;public Bounds? box;public string source;}
   float next;int previousScene=-1;
   static Sprite solid;
   static HashSet<int> captions=new HashSet<int>();
@@ -106,7 +107,7 @@ namespace MaoChinese {
   }
   static Bounds? Box(TextMesh text) {
    var r=text.GetComponent<Renderer>();if(r==null)return null;
-   Vector3 p=r.bounds.center;Bounds? best=null;
+   Vector3 p=text.transform.position;Bounds? best=null;
    Transform t=text.transform;
    for(int depth=0;t!=null&&depth<4;depth++,t=t.parent) {
     var sprite=t.GetComponent<SpriteRenderer>();
@@ -119,15 +120,24 @@ namespace MaoChinese {
    if(mesh==null||!Display.HasChinese(raw)||mesh.GetComponentInParent<TMPCompatibility>()!=null||mesh.name=="ChinesePopupDisplay")return;
    if(mesh.transform.parent!=null&&mesh.transform.parent.name.StartsWith("Okoshko")) {var popup=mesh.GetComponent<PopupCompatibility>();if(popup==null)popup=mesh.gameObject.AddComponent<PopupCompatibility>();popup.Bind(mesh);return;}
    int id=mesh.GetInstanceID();MeshState st;
-   if(!states.TryGetValue(id,out st)) {st=new MeshState{size=mesh.characterSize,box=Box(mesh),source=raw};states[id]=st;}
-   if(st.last==raw)return;
+   var metrics=mesh.GetComponent<ChineseMeshMetrics>();if(metrics==null)metrics=mesh.gameObject.AddComponent<ChineseMeshMetrics>();
+   if(!metrics.initialized){metrics.baseSize=mesh.characterSize;metrics.lastAppliedSize=mesh.characterSize;metrics.initialized=true;}
+   else if(!Mathf.Approximately(mesh.characterSize,metrics.lastAppliedSize))metrics.baseSize=mesh.characterSize;
+   if(!states.TryGetValue(id,out st)) {st=new MeshState{mesh=mesh,size=metrics.baseSize,box=Box(mesh),source=raw};states[id]=st;}
+   bool sizeChanged=!Mathf.Approximately(st.size,metrics.baseSize);st.size=metrics.baseSize;
+   if(st.last==raw&&!sizeChanged)return;
+   st.box=Box(mesh);
    mesh.font=Display.ChineseFont;mesh.fontSize=Math.Max(24,mesh.fontSize);mesh.GetComponent<Renderer>().sharedMaterial=mesh.font.material;
    mesh.characterSize=st.size;mesh.richText=true;
+   // The Latin font's tightly packed lines overlap CJK glyphs. Keep all content.
+   mesh.lineSpacing=Math.Max(1.12f,mesh.lineSpacing);
    var rendered=mesh.GetComponent<Renderer>();string output=raw;
    if(st.box.HasValue) {
     Bounds b=st.box.Value;Vector3 anchor=mesh.transform.position;
     int horizontal=(int)mesh.anchor%3;float usableWidth=horizontal==1?2*Math.Min(anchor.x-b.min.x,b.max.x-anchor.x):(horizontal==0?b.max.x-anchor.x:anchor.x-b.min.x);
     if(usableWidth>.15f&&Math.Abs(mesh.transform.eulerAngles.z)<.1f)b.size=new Vector3(Math.Min(b.size.x,usableWidth),b.size.y,b.size.z);
+    int vertical=(int)mesh.anchor/3;float usableHeight=vertical==1?2*Math.Min(anchor.y-b.min.y,b.max.y-anchor.y):(vertical==0?anchor.y-b.min.y:b.max.y-anchor.y);
+    if(usableHeight>.08f&&Math.Abs(mesh.transform.eulerAngles.z)<.1f)b.size=new Vector3(b.size.x,Math.Min(b.size.y,usableHeight),b.size.z);
     var stripped=Regex.Replace(raw,"<[^>]*>","");
     if(stripped.Length>24) {
      float estimated=rendered.bounds.size.x/Math.Max(1,LongestWidth(stripped));
@@ -136,21 +146,25 @@ namespace MaoChinese {
     var extent=rendered.bounds;float factor=1;
     if(extent.size.x>b.size.x*.92f)factor=Math.Min(factor,b.size.x*.92f/extent.size.x);
     if(extent.size.y>b.size.y*.90f)factor=Math.Min(factor,b.size.y*.90f/extent.size.y);
-    if(factor<1)mesh.characterSize=st.size*Math.Max(.18f,factor);
+    if(factor<1)mesh.characterSize=st.size*Math.Max(.05f,factor);
    }
-   st.last=output;
+   metrics.lastAppliedSize=mesh.characterSize;st.last=output;
   }
   static float LongestWidth(string s) {float max=0,w=0;foreach(char c in s) {if(c=='\n'){max=Math.Max(w,max);w=0;}else w+=c>=0x2e80?2:1;}return Math.Max(max,w);}
   void Update() {
    if(Time.unscaledTime<next)return;next=Time.unscaledTime+.3f;
    int scene=SceneManager.GetActiveScene().buildIndex;
-   if(scene!=previousScene){previousScene=scene;states.Clear();}
+   if(scene!=previousScene){previousScene=scene;var gone=new List<int>();foreach(var item in states)if(item.Value.mesh==null)gone.Add(item.Key);foreach(int id in gone)states.Remove(id);}
    LocalizeArt();
    TutorialArt.Refresh();
    foreach(var mesh in UnityEngine.Object.FindObjectsOfType<TextMesh>()) {string s=Display.Localize(mesh.text);if(scene==5&&mesh.transform.parent!=null&&mesh.transform.parent.name.StartsWith("Aud"))s=s.Replace('\n',' ').Replace('|',' ');if(s!=mesh.text)mesh.text=s;Apply(mesh,s);}
    foreach(var text in UnityEngine.Object.FindObjectsOfType<Text>()) {var input=text.GetComponentInParent<InputField>();string s=(input!=null&&input.textComponent==text)?text.text:Display.Localize(text.text);if(s!=text.text)text.text=s;if(Display.HasChinese(s)&&text.font!=Display.ChineseFont){text.font=Display.ChineseFont;text.horizontalOverflow=HorizontalWrapMode.Wrap;text.resizeTextForBestFit=true;text.resizeTextMinSize=10;}}
    foreach(var text in UnityEngine.Object.FindObjectsOfType<TMPro.TMP_Text>()) {if(text.GetComponentInParent<TMPro.TMP_InputField>()!=null)continue;string s=Display.Localize(text.text);if(s!=text.text)text.text=s;if(Display.HasChinese(s)){var bridge=text.GetComponent<TMPCompatibility>();if(bridge==null)bridge=text.gameObject.AddComponent<TMPCompatibility>();bridge.Bind(text);}}
   }
+ }
+ // Serialized on runtime clones, so cloned labels retain their original scale.
+ public class ChineseMeshMetrics : MonoBehaviour {
+  public bool initialized;public float baseSize;public float lastAppliedSize;
  }
  // Render popup glyphs in a fresh native renderer; preserve the game's text reference.
  public class PopupCompatibility : MonoBehaviour {

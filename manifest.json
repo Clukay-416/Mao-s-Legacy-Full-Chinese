@@ -1,15 +1,16 @@
 {
   "game_version": "1.8.5",
-  "build_date": "2026-10-05",
+  "build_date": "2026-10-06",
   "files": [
     {
       "path": "China_Data/Managed/MaoChinese.dll",
       "original": null,
-      "patched": "8cc4206005990424810d10ed337295b68e1b3dd5a166f0ae78f5579c0a0e6925",
+      "patched": "07eff98de01e8d2c4938afb19d202da9661062c1c59344c392970b5afbab28a4",
       "payload": "China_Data/Managed/MaoChinese.dll",
-      "payload_sha256": "8cc4206005990424810d10ed337295b68e1b3dd5a166f0ae78f5579c0a0e6925",
+      "payload_sha256": "07eff98de01e8d2c4938afb19d202da9661062c1c59344c392970b5afbab28a4",
       "accepted_previous": [
-        "4e0f58f07d565ebcddf303158e0f9fba6d6d07ce9f07af85c7b7cb8f6f3fae14"
+        "4e0f58f07d565ebcddf303158e0f9fba6d6d07ce9f07af85c7b7cb8f6f3fae14",
+        "8cc4206005990424810d10ed337295b68e1b3dd5a166f0ae78f5579c0a0e6925"
       ]
     },
     {
@@ -35,14 +36,15 @@
     {
       "path": "China_Data/resources.assets",
       "original": "d2e8d89a4e85ad922f190811cef488bb80cf706d82116d42e63c86e1b2938903",
-      "patched": "98982eff7f8e95b03ad55ef1c94ba2344fa8fd06f1de9df720ae75480c4e0ceb",
+      "patched": "f6169b06503a167aeaa531754a2c25373b172c2fa9eaac2f41ccdb43759fcaf2",
       "payload": "Patches/resources.assets.mld.gz",
-      "payload_sha256": "8ba2b5ee674dfe8b0db6a0b3ea3968462f88ccbc07df053cd8abfd5cf98969e2",
+      "payload_sha256": "241962f8d016a70fa188033f6d9d91260be173520131ac74706d59dced1d38d7",
       "accepted_previous": [
-        "52f97afa62011fe8fb78aa58c7b7a68cfe425bab8d11462b0fe4c9e7b7989f38"
+        "52f97afa62011fe8fb78aa58c7b7a68cfe425bab8d11462b0fe4c9e7b7989f38",
+        "98982eff7f8e95b03ad55ef1c94ba2344fa8fd06f1de9df720ae75480c4e0ceb"
       ]
     }
   ],
-  "patch_version": "v1.8.5-zh.2",
+  "patch_version": "v1.8.5-zh.3",
   "format": "MLD1-gzip"
 }
